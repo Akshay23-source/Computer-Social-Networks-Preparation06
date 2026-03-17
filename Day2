@@ -1,0 +1,371 @@
+Today we move one level deeper 🔥
+Focus: How data actually flows + how networks are structured internally
+
+🌐 Computer Networks
+1️⃣ OSI Model (Most Important for Interviews)
+Simple Idea
+
+OSI model divides communication into 7 layers, like a step-by-step process.
+
+Mental Model (Sending a Courier 📦)
+
+When you send a parcel:
+
+Write message → Application
+
+Format it → Presentation
+
+Start communication → Session
+
+Break into packets → Transport
+
+Decide route → Network
+
+Physical transfer → Data Link
+
+Send via wire → Physical
+
+The 7 Layers
+Layer	Function
+Application	User interaction
+Presentation	Format/encryption
+Session	Connection management
+Transport	Reliable delivery
+Network	Routing
+Data Link	Error detection
+Physical	Actual transmission
+Why It Works
+
+Breaking into layers makes systems:
+
+modular
+
+easier to debug
+
+easier to design
+
+Connection to Programming
+
+Think of functions calling functions:
+
+sendData() → processData() → routeData() → transmit()
+
+Each layer = one responsibility.
+
+Memory Trick 🧠
+
+All People Seem To Need Data Processing
+
+(A-P-S-T-N-D-P)
+
+2️⃣ TCP vs UDP (VERY IMPORTANT)
+Simple Idea
+
+Two ways to send data:
+
+TCP → reliable
+
+UDP → fast
+
+Mental Model
+
+📦 TCP = Courier with tracking
+
+ensures delivery
+
+resends if lost
+
+slower
+
+🚀 UDP = Normal post (no tracking)
+
+no guarantee
+
+faster
+
+Key Differences
+Feature	TCP	UDP
+Reliability	Yes	No
+Speed	Slower	Faster
+Connection	Required	Not required
+Real Examples
+
+TCP → websites, email
+
+UDP → video streaming, gaming
+
+Why It Works
+
+Different applications need different priorities:
+
+Banking → reliability
+
+Live video → speed
+
+Memory Trick
+
+TCP = Trust (reliable)
+UDP = Ultra fast (but risky)
+
+3️⃣ Packet Switching vs Circuit Switching
+Packet Switching (Internet uses this)
+Idea
+
+Data is broken into small packets and sent independently.
+
+Mental Model
+
+Sending a book as:
+
+separate pages
+
+each page takes different route
+
+reassembled at destination
+
+Why It Works
+
+efficient
+
+no dedicated path needed
+
+scalable
+
+Circuit Switching (Old telephone system)
+Idea
+
+A dedicated path is established before communication.
+
+Mental Model
+
+Phone call:
+
+connection reserved
+
+no interruption
+
+fixed path
+
+Comparison
+Feature	Packet	Circuit
+Path	Dynamic	Fixed
+Efficiency	High	Low
+Example	Internet	Telephone
+Memory Trick
+
+Packet = pieces
+Circuit = single path
+
+4️⃣ IP Address & MAC Address
+IP Address
+
+Logical address
+
+Used for global identification
+
+Example:
+
+192.168.1.1
+MAC Address
+
+Physical address
+
+Unique to device hardware
+
+Example:
+
+00:1A:2B:3C:4D:5E
+Mental Model
+
+Think of delivery system:
+
+IP → City address
+
+MAC → House number
+
+Why It Works
+
+IP helps route data across networks
+
+MAC ensures delivery within local network
+
+Memory Trick
+
+IP = Internet identity
+MAC = Machine identity
+
+🌍 Social Networks
+5️⃣ Centrality (Who is Important?)
+
+Centrality measures importance of a node.
+
+Types
+
+Degree Centrality
+
+Closeness Centrality
+
+Betweenness Centrality
+
+Mental Model
+
+In a college:
+
+Popular student → high centrality
+
+Connector between groups → very important
+
+Why It Works
+
+Helps identify:
+
+influencers
+
+key spreaders
+
+important nodes
+
+Memory Trick
+
+Centrality = Importance score
+
+6️⃣ Closeness Centrality
+Idea
+
+Measures how quickly a node can reach others.
+
+Mental Model
+
+Student who can reach everyone quickly:
+
+knows all groups
+
+communicates fast
+
+Why It Matters
+
+Used in:
+
+information spreading
+
+network optimization
+
+Memory Trick
+
+Closer → Faster reach
+
+7️⃣ Betweenness Centrality
+Idea
+
+Measures how often a node acts as a bridge.
+
+Mental Model
+
+Friend who connects two friend groups.
+
+If removed → groups disconnect.
+
+Why It Matters
+
+identifies critical nodes
+
+useful in network security
+
+Memory Trick
+
+Bridge node = High betweenness
+
+8️⃣ Small World Network
+Idea
+
+Everyone is connected through very few steps.
+
+Famous Concept
+
+“6 Degrees of Separation”
+
+Mental Model
+
+You → friend → friend → celebrity
+
+Within few steps → everyone connects.
+
+Why It Works
+
+Real networks are:
+
+highly connected
+
+short paths
+
+Memory Trick
+
+Big network, small distance
+
+🎯 10 Most Asked Computer Network Interview Questions
+1️⃣ What is OSI model?
+
+A 7-layer architecture for network communication.
+
+2️⃣ Difference between OSI and TCP/IP?
+
+OSI → theoretical model
+TCP/IP → practical model used in internet
+
+3️⃣ What is TCP?
+
+Reliable, connection-oriented protocol.
+
+4️⃣ What is UDP?
+
+Fast, connectionless protocol.
+
+5️⃣ What is packet switching?
+
+Breaking data into packets and sending separately.
+
+6️⃣ What is circuit switching?
+
+Dedicated communication path.
+
+7️⃣ What is IP address?
+
+Logical identifier for a device.
+
+8️⃣ What is MAC address?
+
+Physical hardware address.
+
+9️⃣ What is DNS?
+
+Converts domain names to IP addresses.
+
+🔟 What is a port number?
+
+Identifies a specific process/service on a device.
+
+Example:
+
+HTTP → Port 80
+HTTPS → Port 443
+🧠 30-Second Revision
+
+Computer Networks:
+
+OSI → 7 layers
+
+TCP vs UDP → reliable vs fast
+
+Packet vs Circuit → flexible vs fixed
+
+IP vs MAC → logical vs physical
+
+Social Networks:
+
+Centrality → importance
+
+Closeness → fast reach
+
+Betweenness → bridge
+
+Small world → short connections
