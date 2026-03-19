@@ -1,0 +1,308 @@
+Today is very important for placements 🔥
+Especially Subnetting, NAT, Flow Control → frequently asked.
+
+🌐 Computer Networks
+1️⃣ Subnetting (🔥 MOST ASKED)
+Simple Idea
+
+Subnetting means dividing a network into smaller networks.
+
+Mental Model (Apartment Building 🏢)
+
+Imagine one big building:
+
+Whole building → Network
+
+Each floor → Subnet
+
+Each room → Device
+
+Instead of chaos, everything becomes organized.
+
+Why It Works
+
+Without subnetting:
+
+Too many devices → congestion
+
+difficult to manage
+
+With subnetting:
+✔ better performance
+✔ easier management
+✔ improved security
+
+Example
+192.168.1.0/24
+
+Split into:
+
+192.168.1.0/26
+
+192.168.1.64/26
+
+etc.
+
+Connection to What You Know
+
+Like arrays splitting into subarrays.
+
+Memory Trick 🧠
+
+Subnet = Small network inside big network
+
+2️⃣ NAT (Network Address Translation)
+Simple Idea
+
+NAT allows multiple devices to share one public IP.
+
+Mental Model (Hostel WiFi 🏠)
+
+50 students → one WiFi router
+
+All use same public IP
+
+Outside world sees 1 identity, inside there are many.
+
+Why It Works
+
+Because IPv4 addresses are limited.
+
+Real Example
+
+Your home:
+
+Laptop
+
+Phone
+
+TV
+
+All share one IP.
+
+Memory Trick
+
+NAT = Many devices → One public identity
+
+3️⃣ Flow Control
+Simple Idea
+
+Flow control ensures sender doesn’t overwhelm receiver.
+
+Mental Model (Teacher & Student 🎓)
+
+Teacher speaks too fast → student can’t understand.
+
+So teacher adjusts speed.
+
+Why It Works
+
+Receiver has limited processing capacity.
+
+Example
+
+TCP uses:
+
+sliding window mechanism
+
+Memory Trick
+
+Flow Control = Speed control of data
+
+4️⃣ Congestion Control
+Simple Idea
+
+Prevents network from getting overloaded.
+
+Mental Model (Traffic Jam 🚦)
+
+Too many cars → roads get congested → slow movement.
+
+Same happens in networks.
+
+Why It Works
+
+If too many packets are sent:
+
+packet loss
+
+delays
+
+network crash
+
+Techniques
+
+Slow start
+
+Congestion avoidance
+
+Memory Trick
+
+Congestion = Traffic jam in network
+
+🌍 Social Networks
+5️⃣ Network Robustness
+Simple Idea
+
+How strong a network is if nodes fail.
+
+Mental Model
+
+If one friend leaves group:
+
+does group break?
+
+Strong network → still connected
+Weak network → breaks
+
+Why It Matters
+
+Used in:
+
+internet design
+
+social platforms
+
+security
+
+Memory Trick
+
+Robust = Strong network
+
+6️⃣ Homophily
+Simple Idea
+
+People connect with similar people.
+
+Mental Model
+
+CSE students → friends with CSE
+
+Gamers → connect with gamers
+
+Why It Works
+
+Similarity builds connection.
+
+Real Use
+
+recommendation systems
+
+friend suggestions
+
+Memory Trick
+
+Homo = Same → Same people connect
+
+7️⃣ Structural Holes
+Simple Idea
+
+A gap between two groups.
+
+Mental Model
+
+Two friend groups don’t know each other.
+
+You connect them → you gain power.
+
+Why It Matters
+
+creates opportunities
+
+increases influence
+
+Memory Trick
+
+Hole = Gap in network
+
+8️⃣ Network Evolution
+Simple Idea
+
+Networks grow and change over time.
+
+Mental Model
+
+Your contact list:
+
+starts small
+
+grows with time
+
+Why It Matters
+
+Helps understand:
+
+growth of social media
+
+viral trends
+
+Memory Trick
+
+Evolution = Growth of network
+
+🎯 10 Most Asked Computer Network Interview Questions
+1️⃣ What is subnetting?
+
+Dividing a network into smaller sub-networks.
+
+2️⃣ What is NAT?
+
+Technique to map multiple private IPs to one public IP.
+
+3️⃣ What is flow control?
+
+Ensures sender doesn’t overwhelm receiver.
+
+4️⃣ What is congestion control?
+
+Prevents network overload.
+
+5️⃣ Difference between flow control and congestion control?
+
+Flow → sender vs receiver
+Congestion → entire network
+
+6️⃣ What is a subnet mask?
+
+Used to divide IP into network and host parts.
+
+7️⃣ What is private IP?
+
+Used inside local network.
+
+Example:
+
+192.168.x.x
+8️⃣ What is public IP?
+
+Globally unique address used on internet.
+
+9️⃣ What is bandwidth?
+
+Amount of data transmitted per second.
+
+🔟 What is throughput?
+
+Actual data successfully transmitted.
+
+🧠 30-Second Revision
+
+Computer Networks:
+
+Subnetting → divide network
+
+NAT → many → one IP
+
+Flow control → speed control
+
+Congestion → traffic jam
+
+Social Networks:
+
+Robustness → strength
+
+Homophily → similar connect
+
+Structural hole → gap
+
+Evolution → growth
