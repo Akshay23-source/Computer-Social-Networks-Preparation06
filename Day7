@@ -1,0 +1,260 @@
+Today we connect theory with real internet usage 🔥
+Focus: How applications actually communicate
+
+🌐 Computer Networks
+1️⃣ OSI vs TCP/IP Model
+Simple Idea
+
+Both are models that explain how networks work in layers.
+
+Mental Model 🧠
+
+Think of two maps of the same city:
+
+OSI → detailed map (7 layers)
+TCP/IP → practical map (4 layers)
+Comparison
+OSI	TCP/IP
+7 layers	4 layers
+Theoretical	Practical
+Detailed	Simplified
+Mapping
+OSI	TCP/IP
+Application	Application
+Presentation	Application
+Session	Application
+Transport	Transport
+Network	Internet
+Data Link	Network Access
+Physical	Network Access
+Why It Works
+
+TCP/IP is used in real world because it is simpler and practical.
+
+Memory Trick
+
+OSI = 7 layers (theory)
+TCP/IP = 4 layers (real world)
+
+2️⃣ Ports & Sockets
+Simple Idea
+IP address → identifies device
+Port → identifies application
+Mental Model (Apartment Building 🏢)
+Building address → IP
+Room number → Port
+Examples
+Service	Port
+HTTP	80
+HTTPS	443
+FTP	21
+Socket
+
+Combination of:
+
+(IP address + Port)
+Why It Works
+
+Multiple apps run on same device → ports separate them.
+
+Memory Trick
+
+Port = App door
+Socket = Full address
+
+3️⃣ DHCP (Automatic IP Assignment)
+Simple Idea
+
+DHCP automatically assigns IP address to devices.
+
+Mental Model (Hotel Check-in 🏨)
+
+When you enter hotel:
+
+you get room number automatically
+
+Similarly:
+
+device joins network → gets IP automatically
+Steps
+Discover
+Offer
+Request
+Acknowledge
+Why It Works
+
+Without DHCP:
+
+you must assign IP manually → difficult
+Memory Trick
+
+DHCP = Automatic IP provider
+
+4️⃣ Email Protocols
+Types
+SMTP → sending emails
+POP3 → receiving (download)
+IMAP → receiving (sync)
+Mental Model 📧
+
+Sending email:
+
+SMTP → post office sending
+
+Receiving:
+
+POP3 → download and delete from server
+IMAP → sync across devices
+Why It Works
+
+Different needs:
+
+POP3 → simple
+IMAP → modern multi-device
+Memory Trick
+
+SMTP = Send
+POP3/IMAP = Receive
+
+🌍 Social Networks
+5️⃣ Network Games
+Simple Idea
+
+People make decisions based on others’ actions.
+
+Mental Model
+
+If many friends use Instagram → you also join.
+
+Why It Works
+
+Human behavior is influenced by network.
+
+Memory Trick
+
+Game = Decisions influenced by others
+
+6️⃣ Social Capital
+Simple Idea
+
+Value gained from relationships.
+
+Mental Model
+
+More connections → more opportunities:
+
+jobs
+help
+knowledge
+Why It Matters
+
+Strong network → strong career.
+
+Memory Trick
+
+Connections = Value
+
+7️⃣ Reputation Systems
+Simple Idea
+
+System to measure trustworthiness.
+
+Examples
+Amazon ratings
+Uber ratings
+LinkedIn endorsements
+Mental Model
+
+Good reputation → more trust → more opportunities.
+
+Why It Works
+
+Helps filter:
+
+good vs bad users
+Memory Trick
+
+Reputation = Trust score
+
+8️⃣ Temporal Networks
+Simple Idea
+
+Networks that change over time.
+
+Mental Model
+
+Your contacts:
+
+school friends
+college friends
+workplace connections
+
+Network evolves over time.
+
+Why It Matters
+
+Helps analyze:
+
+trends
+behavior changes
+Memory Trick
+
+Temporal = Time-based network
+
+🎯 10 Most Asked Computer Network Interview Questions
+1️⃣ Difference between OSI and TCP/IP?
+
+OSI → 7 layers (theoretical)
+TCP/IP → 4 layers (practical)
+
+2️⃣ What is a port?
+
+Logical endpoint identifying a service.
+
+3️⃣ What is a socket?
+
+Combination of IP address and port.
+
+4️⃣ What is DHCP?
+
+Protocol for automatic IP assignment.
+
+5️⃣ What is SMTP?
+
+Protocol used to send emails.
+
+6️⃣ What is POP3?
+
+Downloads emails from server.
+
+7️⃣ What is IMAP?
+
+Syncs emails across devices.
+
+8️⃣ What is a well-known port?
+
+Ports from 0–1023 reserved for common services.
+
+9️⃣ What is ephemeral port?
+
+Temporary port used by client.
+
+🔟 What is client-server model?
+
+Client requests → server responds.
+
+🧠 30-Second Revision
+
+Computer Networks:
+
+OSI vs TCP/IP → theory vs real
+Ports → identify apps
+DHCP → automatic IP
+Email protocols → send/receive
+
+Social Networks:
+
+Network games → influenced decisions
+Social capital → value of connections
+Reputation → trust score
+Temporal → time-based network
