@@ -1,0 +1,231 @@
+Today we focus on web internals + real behavior of social connections 🔥
+These are very commonly asked in interviews
+
+🌐 Computer Networks
+1️⃣ HTTP Deep (Methods + Status Codes) 🔥
+Simple Idea
+
+HTTP defines how client (browser) communicates with server
+
+Mental Model (Restaurant 🍽️)
+You (client) → order food
+Waiter (HTTP) → takes request
+Kitchen (server) → prepares response
+HTTP Methods
+Method	Meaning
+GET	Fetch data
+POST	Send data
+PUT	Update data
+DELETE	Remove data
+Status Codes
+Code	Meaning
+200	OK
+404	Not Found
+500	Server Error
+Why It Works
+
+Standard communication → all websites work consistently.
+
+Memory Trick 🧠
+
+GET = take
+POST = send
+
+2️⃣ Web Caching
+Simple Idea
+
+Stores frequently accessed data to reduce loading time.
+
+Mental Model
+
+You save notes locally instead of downloading every time.
+
+Types
+Browser cache
+Proxy cache
+CDN cache
+Why It Works
+faster loading
+reduces server load
+Memory Trick
+
+Cache = Save for later use
+
+3️⃣ Proxy vs Gateway
+Proxy
+
+Acts as middleman for client
+
+Gateway
+
+Acts as middleman for server
+
+Mental Model
+
+Proxy → your assistant talking to others
+Gateway → server’s assistant
+
+Why It Works
+
+Helps in:
+
+security
+filtering
+protocol conversion
+Memory Trick
+
+Proxy = client side
+Gateway = server side
+
+4️⃣ VPN (Virtual Private Network)
+Simple Idea
+
+Creates a secure private connection over internet.
+
+Mental Model 🔒
+
+Like using a secret tunnel to send data.
+
+Why It Works
+encrypts data
+hides IP
+increases privacy
+Real Example
+
+Access blocked websites using VPN.
+
+Memory Trick
+
+VPN = private tunnel
+
+🌍 Social Networks
+5️⃣ Network Clustering
+Simple Idea
+
+Formation of tight groups inside network.
+
+Mental Model
+
+Friend groups in college:
+
+close-knit circles
+Why It Works
+
+People with similar interests cluster together.
+
+Memory Trick
+
+Cluster = group of close nodes
+
+6️⃣ Triadic Closure
+Simple Idea
+
+If A knows B and B knows C → A likely knows C.
+
+Mental Model
+
+Your friend introduces you to their friend.
+
+Why It Works
+
+Trust spreads through connections.
+
+Memory Trick
+
+Friend of friend → becomes friend
+
+7️⃣ Social Influence Models
+Simple Idea
+
+People change behavior based on others.
+
+Mental Model
+
+If many friends start gym → you also start.
+
+Why It Works
+
+Humans follow trends.
+
+Memory Trick
+
+Influence = behavior change
+
+8️⃣ Network Visualization
+Simple Idea
+
+Graphical representation of network.
+
+Mental Model
+
+Like drawing a map of connections.
+
+Why It Matters
+
+Helps analyze:
+
+patterns
+communities
+influence
+Memory Trick
+
+Visualization = see the network
+
+🎯 10 Most Asked Computer Network Interview Questions
+1️⃣ What is HTTP?
+
+Protocol for communication between client and server.
+
+2️⃣ What are HTTP methods?
+
+GET, POST, PUT, DELETE.
+
+3️⃣ What is status code 404?
+
+Page not found.
+
+4️⃣ What is web caching?
+
+Storing data for faster access.
+
+5️⃣ What is a proxy server?
+
+Client-side intermediary.
+
+6️⃣ What is a gateway?
+
+Server-side intermediary.
+
+7️⃣ What is VPN?
+
+Secure private network over internet.
+
+8️⃣ What is HTTPS?
+
+Secure version of HTTP.
+
+9️⃣ What is REST API?
+
+Web service using HTTP methods.
+
+🔟 Difference between HTTP and HTTPS?
+
+HTTP → not secure
+HTTPS → encrypted
+
+🧠 30-Second Revision
+
+Computer Networks:
+
+HTTP → web communication
+Cache → faster loading
+Proxy/Gateway → intermediaries
+VPN → secure tunnel
+
+Social Networks:
+
+Clustering → groups
+Triadic closure → friend of friend
+Influence → behavior change
+Visualization → graph view
+
