@@ -1,0 +1,229 @@
+1️⃣ What Happens When You Open a Website (Deep Interview Answer)
+Simple Answer (What most students say ❌)
+
+“DNS → HTTP → page loads”
+
+👉 Not enough for interviews.
+
+Perfect Answer (What interviewer wants ✅)
+Step-by-step flow:
+URL entered
+DNS lookup → domain → IP
+TCP 3-way handshake
+TLS handshake (if HTTPS)
+HTTP request sent (GET)
+Routing via routers
+Server processes request
+Response sent back
+Browser renders page
+Mental Model 🧠
+
+Like ordering food online:
+
+search restaurant
+connect
+secure payment
+place order
+delivery
+Why This Matters
+
+👉 This is MOST ASKED QUESTION in placements.
+
+2️⃣ TCP vs UDP (INTERVIEW TWIST)
+Interview Trap Question
+
+👉 “Which is better TCP or UDP?”
+
+Smart Answer ✅
+
+“Neither is universally better. It depends on use case.”
+
+Example Answer
+TCP → banking, email (reliable)
+UDP → gaming, streaming (fast)
+Why Interviewers Ask
+
+To check:
+
+conceptual clarity
+real-world thinking
+Memory Trick
+
+Right tool for right job
+
+3️⃣ NAT + Private vs Public IP (Deep Understanding)
+Key Idea
+Private IP → inside network
+Public IP → internet identity
+Mental Model 🏠
+House number → private IP
+City address → public IP
+NAT Role
+
+Converts:
+
+👉 private → public (when going outside)
+
+Why Important
+
+Without NAT:
+
+IP shortage problem
+Interview Tip ⭐
+
+👉 Always mention IPv4 limitation
+
+4️⃣ DNS vs ARP (Common Confusion)
+Interview Question
+
+👉 “Difference between DNS and ARP?”
+
+Perfect Answer
+DNS	ARP
+Name → IP	IP → MAC
+Works on internet	Works in LAN
+Mental Model
+DNS → find building
+ARP → find exact room
+Memory Trick
+
+DNS → big level
+ARP → local level
+
+🌍 Social Networks
+5️⃣ Strong vs Weak Ties (INTERVIEW LEVEL)
+Key Insight
+
+👉 Weak ties are more powerful than strong ties
+
+Why?
+
+Strong ties:
+
+same group
+same info
+
+Weak ties:
+
+different groups
+new opportunities
+Real Example
+
+Job opportunities mostly come from:
+👉 LinkedIn connections (weak ties)
+
+Memory Trick
+
+Weak ties = new doors
+
+6️⃣ Influence Maximization (Company Use Case)
+Interview Question
+
+👉 “How would you market a product?”
+
+Smart Answer
+Identify influencers
+target them
+spread through network
+Why It Works
+
+One influencer → thousands reach
+
+Memory Trick
+
+Target few → reach many
+
+7️⃣ Community Detection (Real Use Case)
+Interview Question
+
+👉 “How does Instagram suggest friends?”
+
+Answer
+detects communities
+suggests within same group
+Example
+CSE students → suggested to each other
+Memory Trick
+
+Same group → suggestion
+
+8️⃣ PageRank (Google Level Concept)
+Key Idea
+
+Not all links are equal.
+
+Mental Model
+Normal person recommends → small value
+Influencer recommends → high value
+Why It Works
+
+Importance flows through connections.
+
+Memory Trick
+
+Important nodes increase rank
+
+🎯 10 Most Asked Computer Network Interview Questions (INTERVIEW LEVEL)
+1️⃣ What happens when you type a URL?
+
+Explain full flow (DNS → TCP → HTTP → response).
+
+2️⃣ TCP vs UDP which is better?
+
+Depends on use case.
+
+3️⃣ What is NAT and why needed?
+
+Maps private IP to public IP due to IPv4 limitation.
+
+4️⃣ Difference between DNS and ARP?
+
+DNS → name to IP
+ARP → IP to MAC
+
+5️⃣ What is latency vs bandwidth?
+
+Latency → delay
+Bandwidth → capacity
+
+6️⃣ What is packet loss?
+
+Loss of packets during transmission.
+
+7️⃣ What is jitter?
+
+Variation in delay.
+
+8️⃣ What is firewall?
+
+Controls incoming/outgoing traffic.
+
+9️⃣ What is congestion control?
+
+Prevents network overload.
+
+🔟 What is flow control?
+
+Controls data speed between sender and receiver.
+
+🧠 30-Second Revision
+
+Computer Networks:
+
+Website flow → full process
+TCP vs UDP → depends
+NAT → private → public
+DNS vs ARP → global vs local
+
+Social Networks:
+
+Weak ties → powerful
+Influence → marketing
+Community → grouping
+PageRank → importance
+🔥 What You’re Becoming Now
+
+You are shifting from:
+
+❌ Student (memorizing)
+➡️ ✅ Engineer (understanding + explaining)
