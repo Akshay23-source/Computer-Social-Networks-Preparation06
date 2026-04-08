@@ -1,0 +1,231 @@
+1️⃣ Subnetting (Numerical Understanding 🔥)
+Simple Idea
+
+Subnetting = divide IP network into smaller parts
+
+Example Question
+
+👉 IP: 192.168.1.0/24
+How many hosts possible?
+
+Concept Formula
+
+Number of hosts
+=
+2
+𝑛
+−
+2
+Number of hosts=2
+n
+−2
+
+Where:
+
+n = number of host bits
+Solve
+
+/24 means:
+
+32 – 24 = 8 host bits
+
+So:
+
+2^8 - 2 = 254 hosts
+Why “-2”?
+1 for network address
+1 for broadcast address
+Memory Trick 🧠
+
+2ⁿ – 2 → always remember
+
+2️⃣ Subnetting Trick (Fast Method)
+Question
+
+Divide /24 into 4 subnets
+
+Trick
+
+👉 4 = 2² → borrow 2 bits
+
+New subnet:
+
+/24 + 2 = /26
+Subnets
+192.168.1.0
+192.168.1.64
+192.168.1.128
+192.168.1.192
+Why It Works
+
+Each subnet gets equal range.
+
+Memory Trick
+
+Subnets = 2ⁿ → borrow n bits
+
+3️⃣ Scenario Question (Interview Style)
+Question
+
+👉 “Why do we use UDP in video streaming?”
+
+Smart Answer ✅
+Speed is more important than accuracy
+small packet loss is acceptable
+TCP delay causes buffering
+Key Insight
+
+👉 Applications decide protocol, not the network.
+
+4️⃣ Another Scenario (Very Important)
+Question
+
+👉 “Why does website load slow sometimes?”
+
+Smart Answer Structure
+
+Possible reasons:
+
+High latency
+Server overload
+DNS delay
+Network congestion
+No caching
+Interview Tip ⭐
+
+Always give multiple reasons → shows depth.
+
+🌍 Social Networks
+5️⃣ Triadic Closure (Deep Understanding)
+Idea
+
+If A knows B and B knows C → A likely knows C.
+
+Why It Happens
+trust transfer
+mutual connections
+Real Example
+
+LinkedIn suggestions.
+
+Memory Trick
+
+Friend of friend = friend
+
+6️⃣ Network Centrality (Comparison)
+Types
+Degree → most connections
+Closeness → fastest reach
+Betweenness → bridge node
+Mental Model
+Degree → popular student
+Closeness → socially active
+Betweenness → connector
+Interview Tip
+
+Explain with examples, not definitions.
+
+7️⃣ Cascade Failure (Critical Concept)
+Simple Idea
+
+Failure spreads across network.
+
+Mental Model
+
+One power grid fails → others fail → blackout.
+
+Why It Matters
+
+Used in:
+
+financial systems
+social media crashes
+Memory Trick
+
+One failure → chain failure
+
+8️⃣ Link Prediction (Advanced Use)
+Idea
+
+Predict future connections using:
+
+common friends
+similarity
+behavior
+Real Example
+
+“People you may know”
+
+Why It Works
+
+Patterns repeat in networks.
+
+Memory Trick
+
+Predict next connection
+
+🎯 10 Most Asked Computer Network Interview Questions (Problem-Based)
+1️⃣ Formula for number of hosts?
+
+2ⁿ – 2
+
+2️⃣ How many hosts in /24?
+
+254 hosts
+
+3️⃣ What is subnet mask?
+
+Divides network and host portion.
+
+4️⃣ Why UDP for streaming?
+
+Fast, low latency.
+
+5️⃣ Why TCP for banking?
+
+Reliable and secure.
+
+6️⃣ What causes network delay?
+latency
+congestion
+server load
+7️⃣ What is subnetting?
+
+Dividing network into smaller parts.
+
+8️⃣ What is CIDR?
+
+Classless Inter-Domain Routing.
+
+9️⃣ What is broadcast address?
+
+Last address in subnet.
+
+🔟 What is network address?
+
+First address in subnet.
+
+🧠 30-Second Revision
+
+Computer Networks:
+
+Subnetting → 2ⁿ – 2
+Borrow bits → create subnets
+UDP vs TCP → use case
+Slow network → multiple reasons
+
+Social Networks:
+
+Triadic closure → friend of friend
+Centrality → importance types
+Cascade → chain failure
+Link prediction → future edges
+🔥 Progress Update
+
+You are now doing:
+
+✅ Concepts
+✅ Interview questions
+✅ Problem solving
+
+👉 This is exactly what companies test.
