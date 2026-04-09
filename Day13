@@ -1,0 +1,169 @@
+🌐 Computer Networks (Mock Interview Round)
+🎤 Q1: What happens when you type google.com?
+Expected Answer (Structured)
+DNS resolves domain → IP
+TCP 3-way handshake
+TLS handshake (if HTTPS)
+HTTP GET request
+Routing through routers
+Server response
+Browser renders page
+
+👉 Tip: Always answer in steps
+
+🎤 Q2: TCP vs UDP – which will you choose?
+Smart Answer
+
+“Depends on use case”
+
+TCP → reliability needed (banking)
+UDP → speed needed (gaming/streaming)
+
+👉 Shows decision-making ability
+
+🎤 Q3: What is subnetting and why needed?
+Perfect Answer
+
+Subnetting divides a network into smaller networks to:
+
+improve performance
+enhance security
+reduce congestion
+🎤 Q4: Difference between DNS and ARP?
+DNS	ARP
+Name → IP	IP → MAC
+Internet level	Local network
+⚡ Rapid Fire (Answer in One Line)
+
+Try answering yourself first:
+
+What is latency?
+What is bandwidth?
+What is packet loss?
+What is a firewall?
+What is NAT?
+Answers
+Latency → delay
+Bandwidth → capacity
+Packet loss → lost data
+Firewall → traffic filter
+NAT → private → public IP
+🧠 Thinking Question (IMPORTANT)
+Q: Why does YouTube use UDP instead of TCP?
+Smart Answer
+Needs real-time streaming
+small loss acceptable
+TCP causes delay due to retransmission
+
+👉 Shows practical understanding
+
+🌍 Social Networks (Mock Interview Round)
+🎤 Q5: What is a social network?
+
+Graph of nodes (people) and edges (relationships).
+
+🎤 Q6: What is centrality?
+
+Measure of importance of a node.
+
+🎤 Q7: What is PageRank?
+
+Algorithm that ranks nodes based on importance of connections.
+
+🎤 Q8: Strong vs Weak ties?
+Strong → close friends
+Weak → connections (more opportunities)
+🧠 Thinking Question
+Q: Why do job opportunities come from weak ties?
+Smart Answer
+weak ties connect different groups
+bring new information
+strong ties have same info
+🧩 Scenario-Based Questions (Very Important)
+Scenario 1
+
+👉 Website loads slowly only for you.
+
+Answer
+DNS issue
+local network problem
+browser cache issue
+Scenario 2
+
+👉 Video buffering problem.
+
+Answer
+low bandwidth
+high latency
+network congestion
+Scenario 3
+
+👉 Can’t access a website.
+
+Answer
+DNS failure
+server down
+firewall blocking
+🎯 10 Most Asked Computer Network Interview Questions (ADVANCED)
+1️⃣ What is TCP handshake?
+
+Connection setup using SYN, SYN-ACK, ACK.
+
+2️⃣ What is congestion control?
+
+Prevents network overload.
+
+3️⃣ What is flow control?
+
+Controls sender speed.
+
+4️⃣ What is ARQ?
+
+Error recovery method.
+
+5️⃣ What is a socket?
+
+IP + Port.
+
+6️⃣ What is DHCP?
+
+Automatic IP assignment.
+
+7️⃣ What is CDN?
+
+Servers closer to users.
+
+8️⃣ What is load balancing?
+
+Distributes traffic.
+
+9️⃣ What is proxy?
+
+Client-side intermediary.
+
+🔟 What is VPN?
+
+Secure private connection.
+
+🧠 30-Second Revision
+
+Computer Networks:
+
+Think in steps (flow-based answers)
+Always say “depends on use case”
+Give multiple reasons
+
+Social Networks:
+
+Graph → structure
+Centrality → importance
+Weak ties → opportunities
+PageRank → ranking
+🔥 Your Level Now
+
+You can now:
+
+✅ Explain concepts
+✅ Solve problems
+✅ Answer interview questions
+✅ Think like engineer
