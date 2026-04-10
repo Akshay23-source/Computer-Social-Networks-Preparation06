@@ -1,0 +1,277 @@
+🔥 Today = Placement MCQs + Tricky Concepts + Mistake Correction
+Goal: Make you exam + interview ready
+
+🌐 Computer Networks (MCQ Practice 🔥)
+🧠 MCQ 1
+
+👉 Which layer is responsible for routing?
+
+A) Transport
+B) Network
+C) Data Link
+D) Session
+
+✅ Answer: B) Network
+
+👉 Routing happens at Network Layer
+
+🧠 MCQ 2
+
+👉 Which protocol is connectionless?
+
+A) TCP
+B) UDP
+C) HTTP
+D) FTP
+
+✅ Answer: B) UDP
+🧠 MCQ 3
+
+👉 What does DNS do?
+
+A) IP → MAC
+B) Name → IP
+C) Encrypt data
+D) Route packets
+
+✅ Answer: B) Name → IP
+🧠 MCQ 4 (Tricky)
+
+👉 Which is faster?
+
+A) TCP
+B) UDP
+C) Depends on use case
+D) Both same
+
+✅ Answer: C) Depends on use case
+
+👉 Interview trap 🚨
+
+🧠 MCQ 5
+
+👉 Which device forwards packets between networks?
+
+A) Switch
+B) Router
+C) Hub
+D) Firewall
+
+✅ Answer: B) Router
+🧠 MCQ 6
+
+👉 What is port 80 used for?
+
+A) HTTPS
+B) FTP
+C) HTTP
+D) SMTP
+
+✅ Answer: C) HTTP
+🧠 MCQ 7
+
+👉 Which protocol is used for sending emails?
+
+A) HTTP
+B) SMTP
+C) DNS
+D) ARP
+
+✅ Answer: B) SMTP
+🧠 MCQ 8
+
+👉 What is NAT used for?
+
+A) Routing
+B) Security
+C) IP translation
+D) Encryption
+
+✅ Answer: C) IP translation
+🧠 MCQ 9
+
+👉 What is the main function of ARP?
+
+A) Name → IP
+B) IP → MAC
+C) Routing
+D) Encryption
+
+✅ Answer: B) IP → MAC
+🧠 MCQ 10
+
+👉 What is a firewall?
+
+A) Data storage
+B) Network filter
+C) Router
+D) Protocol
+
+✅ Answer: B) Network filter
+🌐 Common Mistakes (VERY IMPORTANT 🚨)
+❌ Mistake 1
+
+“TCP is always better”
+
+✔ Correct: Depends on use case
+
+❌ Mistake 2
+
+“IP identifies everything”
+
+✔ Correct: Port identifies application
+
+❌ Mistake 3
+
+“DNS works locally only”
+
+✔ Correct: DNS works globally
+
+❌ Mistake 4
+
+“HTTPS is a different protocol”
+
+✔ Correct: HTTP + encryption
+
+❌ Mistake 5
+
+“MAC address works on internet”
+
+✔ Correct: Only works in LAN
+
+🌍 Social Networks (MCQ Practice)
+🧠 MCQ 1
+
+👉 What represents a person in social network?
+
+A) Edge
+B) Node
+C) Degree
+D) Cluster
+
+✅ Answer: B) Node
+🧠 MCQ 2
+
+👉 What represents relationship?
+
+A) Node
+B) Edge
+C) Degree
+D) Path
+
+✅ Answer: B) Edge
+🧠 MCQ 3
+
+👉 What is degree?
+
+A) Importance
+B) Number of connections
+C) Distance
+D) Path
+
+✅ Answer: B) Number of connections
+🧠 MCQ 4
+
+👉 Which concept explains “friend of friend”?
+
+A) Centrality
+B) Triadic closure
+C) Cascade
+D) Clustering
+
+✅ Answer: B) Triadic closure
+🧠 MCQ 5
+
+👉 Which nodes are most influential?
+
+A) Low degree
+B) High centrality
+C) Random nodes
+D) Weak nodes
+
+✅ Answer: B) High centrality
+🧠 Thinking Questions (Placement Level)
+Q1
+
+👉 Why is HTTPS more secure?
+
+Answer
+uses encryption
+protects data from attackers
+ensures privacy
+Q2
+
+👉 Why do we need subnetting?
+
+Answer
+reduces congestion
+improves performance
+enhances security
+Q3
+
+👉 Why CDN improves speed?
+
+Answer
+data stored closer to user
+reduces latency
+🎯 10 Most Asked Computer Network Interview Questions (FINAL REVISION)
+1️⃣ What is OSI model?
+
+7-layer communication model.
+
+2️⃣ What is TCP/IP model?
+
+4-layer practical model.
+
+3️⃣ What is DNS?
+
+Name → IP converter.
+
+4️⃣ What is NAT?
+
+Private → public IP mapping.
+
+5️⃣ What is HTTP?
+
+Web communication protocol.
+
+6️⃣ What is HTTPS?
+
+Secure HTTP using encryption.
+
+7️⃣ What is routing?
+
+Path selection for data.
+
+8️⃣ What is a port?
+
+Application identifier.
+
+9️⃣ What is firewall?
+
+Traffic filtering system.
+
+🔟 What is subnetting?
+
+Dividing network into smaller parts.
+
+🧠 30-Second Final Revision
+Computer Networks
+OSI → layers
+TCP vs UDP → depends
+DNS → name to IP
+NAT → IP sharing
+HTTP/HTTPS → communication
+Social Networks
+Node → person
+Edge → relation
+Centrality → importance
+Triadic closure → friend of friend
+🔥 Your Current Level
+
+You are now:
+
+✅ Placement-ready in fundamentals
+✅ Strong in concepts
+✅ Able to answer interview questions
+✅ Comfortable with problem solving
