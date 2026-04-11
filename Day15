@@ -1,0 +1,173 @@
+Today = Company-Specific Preparation (TCS / Infosys / Product-Based)
+Focus: Real questions + Answer framing + Confidence building
+
+🌐 Computer Networks (Company-Level Questions)
+🎤 Q1: Explain TCP vs UDP (TCS/Infosys Style)
+❌ Weak Answer
+
+“TCP is reliable, UDP is fast”
+
+✅ Strong Answer (Use This)
+
+“TCP is a connection-oriented protocol that ensures reliable, ordered, and error-free data delivery using acknowledgments and retransmissions.
+UDP is connectionless, faster, and does not guarantee delivery, making it suitable for real-time applications like streaming and gaming.”
+
+👉 Tip: Always include:
+
+definition
+features
+use cases
+🎤 Q2: What is HTTP and HTTPS? (VERY COMMON)
+✅ Strong Answer
+
+“HTTP is a protocol used for communication between client and server but transmits data in plain text.
+HTTPS is the secure version of HTTP that uses SSL/TLS encryption to protect data and ensure secure communication.”
+
+👉 Add:
+
+security
+encryption
+🎤 Q3: What is DNS? (Amazon-level follow-up)
+✅ Strong Answer
+
+“DNS is a hierarchical system that translates domain names into IP addresses.
+It works by querying DNS servers step-by-step, including root, TLD, and authoritative servers.”
+
+👉 This shows deep understanding
+
+🎤 Q4: What is a Socket?
+✅ Strong Answer
+
+“A socket is an endpoint for communication defined by a combination of IP address and port number, enabling communication between processes over a network.”
+
+🧠 Scenario-Based Questions (VERY IMPORTANT)
+Scenario 1 (Amazon Style)
+
+👉 “Why is your website slow?”
+
+✅ Strong Answer Structure
+
+Possible reasons:
+
+High latency
+Server overload
+DNS delay
+No caching
+Network congestion
+
+👉 Always give multiple causes
+
+Scenario 2
+
+👉 “Why do we use CDN?”
+
+✅ Answer
+
+“To reduce latency by storing content closer to users and reduce load on the main server.”
+
+Scenario 3
+
+👉 “Why NAT is important?”
+
+✅ Answer
+
+“To allow multiple devices to share a single public IP due to IPv4 address limitations and improve security.”
+
+🌍 Social Networks (Company-Level Concepts)
+🎤 Q5: What is Centrality? (Important)
+✅ Strong Answer
+
+“Centrality measures the importance of a node in a network.
+Nodes with higher centrality have more influence in spreading information.”
+
+🎤 Q6: What is PageRank?
+✅ Strong Answer
+
+“PageRank is an algorithm that ranks nodes based on the importance of their connections, where links from highly connected nodes contribute more weight.”
+
+🎤 Q7: What is Triadic Closure?
+✅ Strong Answer
+
+“If two people share a mutual connection, they are more likely to connect, forming a triangle in the network.”
+
+🎤 Q8: Weak vs Strong Ties (VERY IMPORTANT)
+✅ Strong Answer
+
+“Strong ties represent close relationships with frequent interaction, while weak ties connect different groups and are more valuable for accessing new information and opportunities.”
+
+⚡ Rapid Fire (Placement Level)
+
+Try answering yourself:
+
+What is latency?
+What is bandwidth?
+What is throughput?
+What is packet switching?
+What is congestion?
+Answers
+Latency → delay
+Bandwidth → capacity
+Throughput → actual output
+Packet switching → data in pieces
+Congestion → overload
+🎯 10 Most Asked Computer Network Interview Questions (COMPANY LEVEL)
+1️⃣ What is TCP?
+
+Reliable, connection-oriented protocol.
+
+2️⃣ What is UDP?
+
+Fast, connectionless protocol.
+
+3️⃣ What is DNS?
+
+Name to IP converter.
+
+4️⃣ What is HTTP?
+
+Web communication protocol.
+
+5️⃣ What is HTTPS?
+
+Secure HTTP using encryption.
+
+6️⃣ What is NAT?
+
+Private to public IP mapping.
+
+7️⃣ What is a port?
+
+Application identifier.
+
+8️⃣ What is a router?
+
+Forwards packets between networks.
+
+9️⃣ What is a firewall?
+
+Controls network traffic.
+
+🔟 What is subnetting?
+
+Dividing network into smaller networks.
+
+🧠 30-Second Revision
+Computer Networks
+TCP vs UDP → use case
+HTTP vs HTTPS → security
+DNS → hierarchical system
+CDN/NAT → performance + IP usage
+Social Networks
+Centrality → importance
+PageRank → ranking
+Triadic closure → friend of friend
+Weak ties → opportunities
+🔥 Your Level Now (Honest Assessment)
+
+You are now:
+
+✅ Strong in fundamentals
+✅ Good at interview answers
+✅ Able to handle scenarios
+✅ Ready for service-based companies (TCS/Infosys)
+⚠️ Need slight polish for product-based (Amazon level)
