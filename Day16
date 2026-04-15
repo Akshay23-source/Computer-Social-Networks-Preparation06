@@ -1,0 +1,251 @@
+🌐 Computer Networks
+1️⃣ Why TCP is Reliable (Deep Insight 🔥)
+Simple Idea
+
+TCP is not just “reliable” — it uses multiple mechanisms together.
+
+How TCP Achieves Reliability
+Sequence numbers → correct order
+ACKs → confirmation
+Retransmission → resend lost packets
+Sliding window → flow control
+Mental Model 📦
+
+Courier system with:
+
+tracking number
+confirmation call
+resend if lost
+WHY It Works
+
+Because network is unpredictable:
+
+packets can be lost
+packets can arrive out of order
+
+TCP fixes all these.
+
+Interview Gold Line ⭐
+
+👉 “TCP ensures reliability using acknowledgment, sequencing, and retransmission mechanisms.”
+
+2️⃣ Why UDP Exists (Important Thinking)
+Question
+
+👉 If TCP is reliable, why do we even need UDP?
+
+Smart Answer ✅
+
+Because reliability comes with overhead and delay.
+
+UDP is used when:
+
+speed is more important
+real-time data needed
+Examples
+video calls
+gaming
+live streaming
+Key Insight ⭐
+
+👉 “UDP sacrifices reliability for speed.”
+
+Memory Trick
+
+TCP = Safe
+UDP = Fast
+
+3️⃣ How Congestion Actually Happens
+Deep Idea
+
+Congestion happens when:
+
+👉 Incoming traffic > network capacity
+
+Mental Model 🚦
+
+Too many cars → traffic jam
+
+What Happens Internally
+routers queue packets
+buffers overflow
+packets drop
+TCP Solution
+slow start
+congestion avoidance
+WHY It Matters
+
+Helps prevent:
+
+network collapse
+high delays
+Interview Tip ⭐
+
+Always mention:
+👉 “Buffer overflow and packet drop”
+
+4️⃣ End-to-End Principle (Google-Level Concept)
+Simple Idea
+
+Most logic should be at end systems, not network.
+
+Mental Model
+
+Post office delivers parcels
+→ doesn’t check content
+
+Sender/receiver handle correctness.
+
+WHY It Works
+keeps network simple
+improves scalability
+Real Example
+
+Internet routers:
+
+don’t check application data
+just forward packets
+Memory Trick
+
+Network = simple
+Endpoints = smart
+
+🌍 Social Networks
+5️⃣ Homophily (Deep Insight)
+Idea
+
+People connect with similar people.
+
+WHY It Happens
+shared interests
+similar background
+trust
+Real Example
+engineers connect with engineers
+gamers with gamers
+Key Insight ⭐
+
+👉 “Similarity drives connections”
+
+6️⃣ Echo Chambers (Very Important 🔥)
+Idea
+
+People see only similar opinions
+
+Mental Model
+
+Social media feed shows only:
+
+what you like
+what you agree with
+WHY It Happens
+
+Algorithms optimize for:
+
+engagement
+user preference
+Impact
+bias increases
+limited thinking
+Memory Trick
+
+Echo = same ideas repeating
+
+7️⃣ Network Effects (Business Concept 🔥)
+Simple Idea
+
+Value of network increases with more users.
+
+Mental Model
+WhatsApp with 2 users → useless
+WhatsApp with millions → powerful
+WHY It Works
+
+More users → more connections → more value
+
+Real Example
+Instagram
+LinkedIn
+Facebook
+Memory Trick
+
+More users = more value
+
+8️⃣ Information Cascades (Advanced)
+Idea
+
+People follow others without thinking.
+
+Mental Model
+
+Everyone buying same stock → you also buy.
+
+WHY It Happens
+social proof
+lack of information
+Risk
+wrong decisions spread
+Memory Trick
+
+Follow crowd blindly
+
+🎯 10 Most Asked Computer Network Interview Questions (PRODUCT LEVEL)
+1️⃣ Why is TCP reliable?
+
+Uses ACK, sequencing, retransmission.
+
+2️⃣ Why do we use UDP?
+
+For speed and real-time communication.
+
+3️⃣ What causes congestion?
+
+Traffic exceeding network capacity.
+
+4️⃣ What is end-to-end principle?
+
+Logic handled at endpoints, not network.
+
+5️⃣ What is packet loss?
+
+Loss of packets due to congestion/errors.
+
+6️⃣ What is jitter?
+
+Variation in delay.
+
+7️⃣ What is throughput?
+
+Actual data transferred.
+
+8️⃣ What is latency?
+
+Time delay.
+
+9️⃣ What is buffering?
+
+Temporary data storage to handle delays.
+
+🔟 What is QoS?
+
+Ensuring performance for critical traffic.
+
+🧠 30-Second Revision
+Computer Networks
+TCP → reliability mechanisms
+UDP → speed
+Congestion → overload
+End-to-End → smart endpoints
+Social Networks
+Homophily → similar connect
+Echo chamber → same ideas
+Network effects → more users = more value
+Cascade → follow crowd
+🔥 Your Level Now (Honest)
+
+You are now:
+
+✅ Strong for TCS / Infosys
+✅ Ready for most interviews
+✅ Near product-level understanding
+⚠️ Need practice in speaking answers
