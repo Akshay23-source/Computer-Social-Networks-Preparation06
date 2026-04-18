@@ -1,0 +1,234 @@
+Today = Advanced System Design (YouTube / Netflix Level)
+Focus: How large-scale systems handle millions of users
+
+🌐 Computer Networks (Advanced System Design)
+1️⃣ Design YouTube / Netflix (Core Idea 🔥)
+Simple Idea
+
+System must:
+
+store videos
+deliver videos fast
+handle millions of users
+Mental Model 🎬
+
+Think of a movie distribution system:
+
+warehouse → stores videos
+delivery centers → CDN
+users → viewers
+High-Level Flow
+User requests video
+DNS finds nearest server
+CDN serves video
+Video streams in chunks
+Why It Works
+CDN reduces latency
+chunking enables smooth playback
+Interview Gold Line ⭐
+
+👉 “Video systems use CDN + chunk-based streaming for scalability.”
+
+2️⃣ Video Streaming Internals (Deep)
+How Video is Sent
+
+Video is divided into:
+
+👉 small chunks (2–10 seconds)
+
+Why Chunking?
+avoids buffering
+adapts to network speed
+Adaptive Streaming
+
+Quality changes dynamically:
+
+slow internet → low quality
+fast internet → HD
+Mental Model
+
+YouTube auto-adjusting video quality.
+
+Memory Trick
+
+Chunks + Adaptation = Smooth video
+
+3️⃣ Load Balancing (Deep Level)
+Simple Idea
+
+Distribute traffic across multiple servers.
+
+Types
+Round robin
+Least connections
+IP hash
+Mental Model 🍽️
+
+Multiple waiters handling customers.
+
+Why It Works
+avoids overload
+improves response time
+Key Insight ⭐
+
+👉 “Load balancing improves availability and performance”
+
+4️⃣ Fault Tolerance (Very Important 🔥)
+Simple Idea
+
+System should not fail completely even if parts fail.
+
+Mental Model 🛡️
+
+If one road is blocked → alternate route exists.
+
+How It Works
+multiple servers
+backup systems
+replication
+Real Example
+
+If one YouTube server fails → another serves video.
+
+Memory Trick
+
+Failure ≠ system down
+
+🌍 Social Networks (Advanced Concepts)
+5️⃣ Preferential Attachment
+Simple Idea
+
+New nodes connect to already popular nodes.
+
+Mental Model
+
+People follow celebrities, not random users.
+
+Why It Works
+popularity attracts more popularity
+Memory Trick
+
+Rich get richer
+
+6️⃣ Scale-Free Networks (Deep Insight)
+Idea
+
+Network has few highly connected hubs.
+
+Example
+Google
+Instagram influencers
+Why Important
+resilient to random failures
+vulnerable to targeted attacks
+Memory Trick
+
+Few hubs dominate
+
+7️⃣ Information Diffusion Models
+Simple Idea
+
+Mathematical way to study how info spreads
+
+Types
+Independent cascade
+Threshold model
+Mental Model
+
+Like disease spreading.
+
+Why It Matters
+
+Used in:
+
+marketing
+viral campaigns
+Memory Trick
+
+Diffusion = spreading model
+
+8️⃣ Network Robustness (Advanced)
+Simple Idea
+
+Ability of network to survive failures.
+
+Two Cases
+random failure → network survives
+targeted attack → network breaks
+Mental Model
+
+Remove random people → network ok
+Remove influencers → network breaks
+
+Memory Trick
+
+Robust = strong against failure
+
+🎯 10 Most Asked Computer Network Interview Questions (ADVANCED SYSTEM LEVEL)
+1️⃣ How does YouTube stream videos?
+
+Using CDN and chunk-based streaming.
+
+2️⃣ What is adaptive streaming?
+
+Adjusting video quality based on network speed.
+
+3️⃣ What is load balancing?
+
+Distributing traffic across servers.
+
+4️⃣ What is fault tolerance?
+
+System continues working despite failures.
+
+5️⃣ What is redundancy?
+
+Having backup systems.
+
+6️⃣ What is scalability?
+
+Handling increasing users efficiently.
+
+7️⃣ What is replication?
+
+Copying data across servers.
+
+8️⃣ What is latency?
+
+Delay in transmission.
+
+9️⃣ What is throughput?
+
+Actual data delivered.
+
+🔟 What is bottleneck?
+
+Point where system slows down.
+
+🧠 30-Second Revision
+Computer Networks
+YouTube → CDN + chunks
+Streaming → adaptive quality
+Load balancing → distribute traffic
+Fault tolerance → survive failures
+Social Networks
+Preferential attachment → popular grows
+Scale-free → hubs
+Diffusion → spread
+Robustness → survive
+🔥 Your Level Now (Honest)
+
+You are now:
+
+✅ Strong in fundamentals
+✅ Good at interviews
+✅ Understand real systems
+✅ Ready for product-based interviews (basic level)
+
+🚀 Final Phase (Day 20+)
+
+Now we move to:
+
+Final revision + tricky questions
+Mock interviews (real-time)
+Confidence building
