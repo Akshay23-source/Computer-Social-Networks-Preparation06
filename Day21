@@ -1,0 +1,278 @@
+
+
+---
+
+# 📅 WEEK 1 — MOCK INTERVIEWS + REVISION + MCQs
+
+Goal:
+
+* Improve speaking
+* Remove hesitation
+* Build confidence
+* Strengthen weak areas
+
+---
+
+# 🔥 Daily Structure (Week 1)
+
+## 1️⃣ Mock Interview Round
+
+You answer like real interview.
+
+I will:
+
+* ask questions
+* correct answers
+* improve communication
+
+---
+
+## 2️⃣ Revision Blast
+
+Quick revision of:
+
+* OSI
+* TCP/IP
+* DNS
+* TCP vs UDP
+* NAT
+* HTTP
+* Routing
+
+---
+
+## 3️⃣ Placement MCQs
+
+* TCS style
+* Infosys style
+* Product-company logic questions
+
+---
+
+# 📅 DAY 1 — Week 1 Starts
+
+---
+
+# 🎤 MOCK INTERVIEW ROUND
+
+Answer these yourself first before reading hints.
+
+---
+
+## Q1️⃣ Explain TCP vs UDP.
+
+### Interviewer expects:
+
+* definition
+* reliability vs speed
+* use cases
+
+---
+
+## Q2️⃣ What happens when you type google.com in browser?
+
+### Interviewer expects:
+
+* DNS
+* TCP handshake
+* HTTP request
+* routing
+* response
+
+---
+
+## Q3️⃣ Why is HTTPS secure?
+
+### Interviewer expects:
+
+* SSL/TLS
+* encryption
+* secure communication
+
+---
+
+## Q4️⃣ Difference between switch and router?
+
+### Hint:
+
+* switch → LAN
+* router → between networks
+
+---
+
+# ⚡ QUICK REVISION BLAST
+
+---
+
+## 🌐 OSI Model
+
+| Layer       | Purpose          |
+| ----------- | ---------------- |
+| Application | User interaction |
+| Transport   | Reliability      |
+| Network     | Routing          |
+| Data Link   | MAC delivery     |
+| Physical    | Signals          |
+
+---
+
+## 🌐 TCP vs UDP
+
+| TCP      | UDP       |
+| -------- | --------- |
+| Reliable | Fast      |
+| ACK used | No ACK    |
+| Ordered  | Unordered |
+
+---
+
+## 🌐 DNS
+
+Domain → IP mapping
+
+Example:
+
+```id="zplfdk"
+google.com → IP
+```
+
+---
+
+## 🌐 NAT
+
+Many private IPs → one public IP
+
+---
+
+## 🌐 HTTP vs HTTPS
+
+HTTP → plain
+HTTPS → encrypted
+
+---
+
+# 🧠 MCQ PRACTICE (Week 1 Day 1)
+
+---
+
+## MCQ 1
+
+Which layer handles routing?
+
+A) Session
+B) Transport
+C) Network
+D) Physical
+
+✅ Answer: C
+
+---
+
+## MCQ 2
+
+Which protocol is reliable?
+
+A) UDP
+B) TCP
+C) IP
+D) ARP
+
+✅ Answer: B
+
+---
+
+## MCQ 3
+
+DNS converts:
+
+A) IP → MAC
+B) Name → IP
+C) Port → IP
+D) MAC → IP
+
+✅ Answer: B
+
+---
+
+## MCQ 4
+
+Which is connectionless?
+
+A) TCP
+B) UDP
+C) HTTP
+D) HTTPS
+
+✅ Answer: B
+
+---
+
+## MCQ 5
+
+What does HTTPS add?
+
+A) Routing
+B) Encryption
+C) Switching
+D) Fragmentation
+
+✅ Answer: B
+
+---
+
+# 🎯 10 Most Asked CN Questions (Revision Set)
+
+1. What is OSI model?
+2. What is TCP/IP?
+3. TCP vs UDP?
+4. What is DNS?
+5. What is NAT?
+6. What is subnetting?
+7. What is HTTP vs HTTPS?
+8. What is routing?
+9. What is ARP?
+10. What is firewall?
+
+---
+
+# 🧠 MEMORY BOOST TRICKS
+
+### DNS
+
+Internet phonebook 📱
+
+---
+
+### TCP
+
+Courier with tracking 📦
+
+---
+
+### UDP
+
+Fast bike delivery 🚴
+
+---
+
+### Routing
+
+Google Maps for packets 🗺️
+
+---
+
+# 📌 Your Task Today
+
+## Speak answers OUT LOUD for:
+
+1. TCP vs UDP
+2. DNS
+3. HTTP vs HTTPS
+
+This improves:
+
+* confidence
+* fluency
+* interview performance
+
+
