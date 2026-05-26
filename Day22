@@ -1,0 +1,371 @@
+
+
+---
+
+# 🎤 MOCK INTERVIEW ROUND (Scenario Based)
+
+Answer in your own words first mentally.
+
+---
+
+# Q1️⃣ Why does video call quality suddenly drop?
+
+### ✅ Strong Interview Answer
+
+Possible reasons:
+
+* High latency
+* Low bandwidth
+* Packet loss
+* Network congestion
+* Weak WiFi signal
+
+---
+
+### Interview Tip ⭐
+
+Always give:
+👉 multiple possible reasons
+
+This shows:
+
+* practical understanding
+* debugging mindset
+
+---
+
+# Q2️⃣ Why does gaming mostly use UDP instead of TCP?
+
+### ✅ Strong Answer
+
+Gaming needs:
+
+* real-time speed
+* low delay
+
+Small packet loss is acceptable.
+
+TCP retransmission causes lag.
+
+---
+
+### Golden Line ⭐
+
+👉 “Real-time applications prioritize speed over reliability.”
+
+---
+
+# Q3️⃣ Difference between Hub, Switch, and Router?
+
+---
+
+## Hub
+
+* broadcasts data to all devices
+* no intelligence
+
+---
+
+## Switch
+
+* sends data only to correct device
+* uses MAC address
+
+---
+
+## Router
+
+* connects different networks
+* uses IP address
+
+---
+
+### Mental Model 🧠
+
+Hub → shouting in class
+Switch → talking to one student
+Router → connecting classrooms
+
+---
+
+# Q4️⃣ What happens if DNS server fails?
+
+### ✅ Smart Answer
+
+* websites won’t load by name
+* internet may still work using direct IP
+
+Example:
+
+```id="pf2f1r"
+142.250.x.x
+```
+
+---
+
+### Key Insight ⭐
+
+DNS failure ≠ internet completely down
+
+---
+
+# ⚡ RAPID FIRE ROUND
+
+Answer quickly mentally.
+
+---
+
+## 1️⃣ What is latency?
+
+Delay in communication.
+
+---
+
+## 2️⃣ What is bandwidth?
+
+Maximum data capacity.
+
+---
+
+## 3️⃣ What is throughput?
+
+Actual data transferred.
+
+---
+
+## 4️⃣ What is packet loss?
+
+Lost packets during transmission.
+
+---
+
+## 5️⃣ What is jitter?
+
+Variation in delay.
+
+---
+
+# 🧠 TRICKY MCQs (Placement Level)
+
+---
+
+## MCQ 1
+
+Which device works using MAC addresses?
+
+A) Router
+B) Switch
+C) Gateway
+D) Firewall
+
+✅ Answer: B
+
+---
+
+## MCQ 2
+
+Which protocol is used for secure websites?
+
+A) HTTP
+B) FTP
+C) HTTPS
+D) ARP
+
+✅ Answer: C
+
+---
+
+## MCQ 3
+
+Which protocol converts IP → MAC?
+
+A) DNS
+B) TCP
+C) ARP
+D) DHCP
+
+✅ Answer: C
+
+---
+
+## MCQ 4
+
+Which protocol automatically assigns IP addresses?
+
+A) ARP
+B) DNS
+C) DHCP
+D) NAT
+
+✅ Answer: C
+
+---
+
+## MCQ 5
+
+Which layer handles reliability?
+
+A) Network
+B) Session
+C) Transport
+D) Physical
+
+✅ Answer: C
+
+---
+
+# 🌍 Social Networks Revision (Interview Level)
+
+---
+
+# Q5️⃣ Why weak ties are powerful?
+
+### ✅ Strong Answer
+
+Weak ties connect different groups and provide:
+
+* new information
+* opportunities
+* broader reach
+
+---
+
+# Q6️⃣ What causes content to go viral?
+
+### ✅ Strong Answer
+
+* high influence users
+* network effects
+* easy sharing
+* cascade behavior
+
+---
+
+# Q7️⃣ What is centrality?
+
+### ✅ Strong Answer
+
+Measure of importance of a node in network.
+
+---
+
+# Q8️⃣ What is echo chamber?
+
+### ✅ Strong Answer
+
+Situation where users see only similar opinions repeatedly.
+
+---
+
+# 🎯 10 Most Asked CN Interview Questions (Revision Set 2)
+
+---
+
+### 1️⃣ What is subnetting?
+
+Dividing network into smaller parts.
+
+---
+
+### 2️⃣ What is NAT?
+
+Private to public IP mapping.
+
+---
+
+### 3️⃣ What is ARP?
+
+IP to MAC mapping.
+
+---
+
+### 4️⃣ What is DHCP?
+
+Automatic IP assignment.
+
+---
+
+### 5️⃣ What is CDN?
+
+Servers near users.
+
+---
+
+### 6️⃣ What is VPN?
+
+Secure private tunnel.
+
+---
+
+### 7️⃣ What is load balancing?
+
+Traffic distribution.
+
+---
+
+### 8️⃣ What is congestion?
+
+Network overload.
+
+---
+
+### 9️⃣ What is firewall?
+
+Traffic filtering system.
+
+---
+
+### 🔟 What is routing?
+
+Path selection for packets.
+
+---
+
+# 🧠 MEMORY BOOST TRICKS
+
+### ARP
+
+IP → MAC
+
+---
+
+### DHCP
+
+Automatic IP giver
+
+---
+
+### Switch
+
+Smart LAN device
+
+---
+
+### Router
+
+Traffic manager
+
+---
+
+# 🔥 YOUR CURRENT STATUS
+
+You are improving in:
+
+✅ Answer framing
+✅ Scenario solving
+✅ Technical communication
+✅ Interview confidence
+
+---
+
+# 📌 TODAY’S TASK
+
+Speak these answers loudly:
+
+1. Hub vs Switch vs Router
+2. Why UDP for gaming?
+3. What happens if DNS fails?
+
+This is VERY important.
+
+
