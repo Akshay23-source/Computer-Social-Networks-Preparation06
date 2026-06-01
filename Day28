@@ -1,0 +1,476 @@
+
+
+🔥 Today Focus:
+
+* How APIs work in real applications
+* HTTP Status Codes
+* Authentication & JWT
+* Cloud Service Models (IaaS, PaaS, SaaS)
+
+These are asked very frequently in placements.
+
+---
+
+# 🌐 1️⃣ HTTP Status Codes (VERY IMPORTANT 🔥)
+
+When a server responds, it sends a **status code**.
+
+Think of it as the server's way of saying:
+
+👉 "Your request succeeded"
+👉 "Something went wrong"
+
+---
+
+## Common Status Codes
+
+### ✅ 200 OK
+
+Everything worked successfully.
+
+Example:
+
+```text
+GET /users
+```
+
+Server:
+
+```text
+200 OK
+```
+
+---
+
+### ✅ 201 Created
+
+New resource created.
+
+Example:
+
+```text
+POST /users
+```
+
+Creates new user.
+
+---
+
+### ❌ 400 Bad Request
+
+Client sent invalid request.
+
+Example:
+
+Missing required fields.
+
+---
+
+### ❌ 401 Unauthorized
+
+User not logged in.
+
+---
+
+### ❌ 403 Forbidden
+
+Logged in but no permission.
+
+Example:
+Normal user trying to access admin page.
+
+---
+
+### ❌ 404 Not Found
+
+Resource doesn't exist.
+
+Example:
+
+```text
+/users/9999
+```
+
+User not found.
+
+---
+
+### ❌ 500 Internal Server Error
+
+Server crashed or failed.
+
+---
+
+### Memory Trick 🧠
+
+* 2xx → Success
+* 4xx → Client mistake
+* 5xx → Server mistake
+
+---
+
+# 🌐 2️⃣ API Authentication
+
+---
+
+### Problem
+
+How does server know:
+
+👉 Who you are?
+
+---
+
+### Mental Model 🏢
+
+Office building:
+
+* ID card required
+* No ID → no entry
+
+Authentication works similarly.
+
+---
+
+### Common Methods
+
+* Username + Password
+* Token
+* JWT
+
+---
+
+### Why Authentication Exists
+
+Protects:
+
+* user accounts
+* private data
+* payments
+
+---
+
+# 🌐 3️⃣ What is a Token?
+
+---
+
+### Simple Idea
+
+After login:
+
+Server gives a token.
+
+Client sends token with future requests.
+
+---
+
+### Mental Model 🎟️
+
+Movie ticket:
+
+* buy ticket once
+* show ticket at entry
+
+---
+
+### Flow
+
+1. Login
+2. Server gives token
+3. Client stores token
+4. Future requests send token
+
+---
+
+### Why It Works
+
+No need to send password every time.
+
+---
+
+# 🌐 4️⃣ JWT (JSON Web Token)
+
+🔥 Common Interview Topic
+
+---
+
+### Simple Idea
+
+JWT is a secure token containing user information.
+
+---
+
+### Structure
+
+```text
+Header.Payload.Signature
+```
+
+---
+
+### Example
+
+```text
+xxxxx.yyyyy.zzzzz
+```
+
+---
+
+### Why JWT Is Popular
+
+✅ Stateless
+✅ Fast
+✅ Easy to scale
+
+---
+
+### Mental Model
+
+Digital ID card.
+
+Contains:
+
+* user identity
+* verification signature
+
+---
+
+### Interview Gold Line ⭐
+
+"JWT allows stateless authentication by securely storing user information inside a signed token."
+
+---
+
+# ☁️ Cloud Computing
+
+---
+
+# 5️⃣ Cloud Service Models
+
+Very common interview question.
+
+---
+
+## IaaS (Infrastructure as a Service)
+
+You rent:
+
+* servers
+* storage
+* networking
+
+You manage OS and applications.
+
+---
+
+### Example
+
+[Amazon EC2](https://aws.amazon.com/ec2/?utm_source=chatgpt.com)
+
+---
+
+### Mental Model
+
+Rent empty apartment.
+
+You furnish everything.
+
+---
+
+## PaaS (Platform as a Service)
+
+You deploy code.
+
+Provider manages infrastructure.
+
+---
+
+### Examples
+
+[Google App Engine](https://cloud.google.com/appengine?utm_source=chatgpt.com)
+
+---
+
+### Mental Model
+
+Fully furnished apartment.
+
+Just move in.
+
+---
+
+## SaaS (Software as a Service)
+
+Ready-made software.
+
+---
+
+### Examples
+
+[Gmail](https://mail.google.com?utm_source=chatgpt.com)
+
+[Google Docs](https://docs.google.com?utm_source=chatgpt.com)
+
+---
+
+### Mental Model
+
+Hotel room.
+
+Use directly.
+
+---
+
+# Easy Comparison
+
+| Model | Manage Yourself |
+| ----- | --------------- |
+| IaaS  | Most            |
+| PaaS  | Less            |
+| SaaS  | Almost nothing  |
+
+---
+
+# 🌍 Social Networks Concept
+
+## 6️⃣ Collaborative Filtering
+
+Used in recommendation systems.
+
+---
+
+### Simple Idea
+
+Recommend based on similar users.
+
+---
+
+### Example
+
+If:
+
+* Akshay likes Python
+* Rahul likes Python
+
+And Rahul likes Networking videos
+
+System may recommend Networking videos to Akshay.
+
+---
+
+### Why It Works
+
+People with similar behavior often like similar things.
+
+---
+
+### Used By
+
+* YouTube
+* Netflix
+* Amazon
+
+---
+
+# 🎤 Placement Interview Questions
+
+---
+
+## 1️⃣ What is HTTP status code 404?
+
+Resource not found.
+
+---
+
+## 2️⃣ Difference between 401 and 403?
+
+401 → not authenticated
+
+403 → authenticated but not authorized
+
+---
+
+## 3️⃣ What is authentication?
+
+Verifying user identity.
+
+---
+
+## 4️⃣ What is authorization?
+
+Checking permissions.
+
+---
+
+## 5️⃣ What is a token?
+
+Proof that user has logged in.
+
+---
+
+## 6️⃣ What is JWT?
+
+Signed token containing user information.
+
+---
+
+## 7️⃣ What is IaaS?
+
+Infrastructure rental service.
+
+---
+
+## 8️⃣ What is PaaS?
+
+Platform for deploying applications.
+
+---
+
+## 9️⃣ What is SaaS?
+
+Ready-to-use software.
+
+---
+
+## 🔟 Which cloud model gives maximum control?
+
+IaaS.
+
+---
+
+# 🧠 30-Second Revision
+
+### REST API
+
+* 200 → Success
+* 404 → Not Found
+* 500 → Server Error
+* Authentication → identity check
+* JWT → digital ID card
+
+---
+
+### Cloud
+
+* IaaS → infrastructure
+* PaaS → platform
+* SaaS → software
+
+---
+
+### Social Networks
+
+* Collaborative filtering → similar users, similar recommendations
+
+---
+
+# 📌 Today's Speaking Practice
+
+Explain aloud:
+
+1. Difference between Authentication and Authorization
+2. What is JWT?
+3. Explain IaaS, PaaS, SaaS
+4. What is 404 vs 500?
+
+
