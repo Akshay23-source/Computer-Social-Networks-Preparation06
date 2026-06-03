@@ -1,0 +1,497 @@
+
+
+🔥 Today Focus:
+
+* How good APIs are designed
+* REST vs WebSocket
+* Cloud scaling
+* Load balancers
+* Social graph analysis
+
+These concepts are very common in software engineering interviews.
+
+---
+
+# 🌐 1️⃣ API Design Principles
+
+## Simple Idea
+
+A good API should be:
+
+✅ Easy to understand
+✅ Consistent
+✅ Predictable
+
+---
+
+### Bad API ❌
+
+```text
+/getAllUsersDataNow
+```
+
+Confusing.
+
+---
+
+### Good API ✅
+
+```text
+GET /users
+```
+
+Simple and clear.
+
+---
+
+### Mental Model 🧠
+
+Think of road signs.
+
+Good road signs are:
+
+* clear
+* consistent
+* easy to follow
+
+APIs should be the same.
+
+---
+
+### Golden Rule
+
+Use nouns for resources:
+
+```text
+/users
+/products
+/orders
+```
+
+Not actions.
+
+---
+
+### Why It Matters
+
+Good APIs:
+
+* easier to maintain
+* easier for teams to use
+* fewer bugs
+
+---
+
+# 🌐 2️⃣ REST vs WebSocket
+
+This is a favorite interview question.
+
+---
+
+## REST
+
+Best when:
+
+* request → response
+* data changes occasionally
+
+Examples:
+
+* login
+* fetching profile
+* product details
+
+---
+
+## WebSocket
+
+Best when:
+
+* updates happen continuously
+* real-time communication needed
+
+Examples:
+
+* WhatsApp
+* online games
+* stock prices
+
+---
+
+### Mental Model
+
+REST = Email 📧
+
+WebSocket = Phone Call 📞
+
+---
+
+### Comparison
+
+| REST             | WebSocket             |
+| ---------------- | --------------------- |
+| Request-response | Persistent connection |
+| Simpler          | Real-time             |
+| Stateless        | Stateful              |
+
+---
+
+### Interview Gold Line ⭐
+
+👉 Use REST for normal operations and WebSockets for real-time updates.
+
+---
+
+# ☁️ 3️⃣ What Is Scaling?
+
+---
+
+### Problem
+
+Imagine your app gets:
+
+```text
+100 users → 10,000 users → 1 million users
+```
+
+One server may fail.
+
+---
+
+### Scaling = Handling More Load
+
+---
+
+## Vertical Scaling
+
+Add more power to one machine.
+
+```text
+4 GB RAM → 16 GB RAM
+```
+
+---
+
+### Mental Model
+
+Buying a bigger truck 🚚
+
+---
+
+## Horizontal Scaling
+
+Add more machines.
+
+```text
+1 server → 10 servers
+```
+
+---
+
+### Mental Model
+
+Buying more trucks 🚚🚚🚚
+
+---
+
+### Which Is Better?
+
+For very large systems:
+
+✅ Horizontal scaling
+
+---
+
+# ☁️ 4️⃣ Load Balancers
+
+🔥 Extremely Important
+
+---
+
+### Problem
+
+One server receives all traffic.
+
+```text
+100,000 requests
+```
+
+Server crashes.
+
+---
+
+### Solution
+
+Load Balancer
+
+---
+
+### How It Works
+
+```text
+Users
+   ↓
+Load Balancer
+ ↙ ↓ ↘
+S1 S2 S3
+```
+
+Traffic gets distributed.
+
+---
+
+### Mental Model
+
+Restaurant manager assigning customers to different tables.
+
+---
+
+### Benefits
+
+✅ Better performance
+
+✅ High availability
+
+✅ Fault tolerance
+
+---
+
+### Interview Gold Line ⭐
+
+"A load balancer distributes requests across multiple servers to improve scalability and reliability."
+
+---
+
+# ☁️ 5️⃣ Auto Scaling
+
+---
+
+### Problem
+
+Traffic changes throughout the day.
+
+---
+
+### Example
+
+Morning:
+
+```text
+100 users
+```
+
+Night:
+
+```text
+100,000 users
+```
+
+---
+
+### Solution
+
+Automatically add/remove servers.
+
+---
+
+### Why It Matters
+
+* saves money
+* improves performance
+
+---
+
+### Mental Model
+
+Hiring extra staff during rush hours.
+
+---
+
+# 🌍 Social Networks
+
+# 6️⃣ Social Graph Analysis
+
+---
+
+### Simple Idea
+
+Represent social network as graph.
+
+---
+
+### Example
+
+```text
+Akshay — Rahul
+   |
+  Ankit
+```
+
+---
+
+### Nodes
+
+People
+
+---
+
+### Edges
+
+Relationships
+
+---
+
+### Why Companies Analyze Graphs
+
+To find:
+
+* influencers
+* communities
+* recommendations
+
+---
+
+### Memory Trick
+
+**Social network = Graph of humans**
+
+---
+
+# 🌍 7️⃣ Influencer Detection
+
+---
+
+### Question
+
+How does Instagram find influencers?
+
+---
+
+### Answer
+
+Using:
+
+* centrality
+* follower count
+* engagement
+
+---
+
+### Why It Works
+
+Influencers connect many users.
+
+---
+
+### Mental Model
+
+Popular student in college.
+
+---
+
+# 🎤 Placement Interview Questions
+
+---
+
+## 1️⃣ What makes a good API?
+
+Consistency, simplicity, predictability.
+
+---
+
+## 2️⃣ REST vs WebSocket?
+
+REST → request-response
+
+WebSocket → real-time communication
+
+---
+
+## 3️⃣ What is scaling?
+
+Ability to handle increased load.
+
+---
+
+## 4️⃣ Vertical vs Horizontal Scaling?
+
+Vertical → stronger server
+
+Horizontal → more servers
+
+---
+
+## 5️⃣ What is a load balancer?
+
+Distributes traffic across servers.
+
+---
+
+## 6️⃣ What is auto scaling?
+
+Automatic addition/removal of servers.
+
+---
+
+## 7️⃣ Why use horizontal scaling?
+
+Better scalability and reliability.
+
+---
+
+## 8️⃣ What is a social graph?
+
+Graph representation of users and relationships.
+
+---
+
+## 9️⃣ How are influencers identified?
+
+Centrality and engagement metrics.
+
+---
+
+## 🔟 Why are load balancers important?
+
+Prevent server overload.
+
+---
+
+# 🧠 30-Second Revision
+
+### APIs
+
+* Good APIs are simple
+* REST = request-response
+* WebSocket = real-time
+
+---
+
+### Cloud
+
+* Vertical scaling = bigger server
+* Horizontal scaling = more servers
+* Load balancer = traffic manager
+* Auto scaling = dynamic servers
+
+---
+
+### Social Networks
+
+* Social graph = nodes + edges
+* Influencers = high centrality
+
+---
+
+# 📌 Today's Speaking Practice
+
+Explain aloud:
+
+1. REST vs WebSocket
+2. Vertical vs Horizontal Scaling
+3. What is a Load Balancer?
+4. How Instagram finds influencers?
+
+
+
+These are frequently asked in modern software engineering interviews and will connect networking, cloud, and backend systems together. 🚀
