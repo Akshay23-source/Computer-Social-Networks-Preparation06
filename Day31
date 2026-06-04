@@ -1,0 +1,491 @@
+# 📅 Week 2 – Day 5 (Microservices + API Gateway + Cloud Availability)
+
+🔥 Today Focus:
+
+* Monolith vs Microservices
+* API Gateway
+* Availability Zones
+* Recommendation Engine Architecture
+* Modern backend systems
+
+These are common topics in software engineering interviews and system design discussions.
+
+---
+
+# 🏗️ 1️⃣ What is a Monolithic Application?
+
+### Simple Idea
+
+Everything is built as **one large application**.
+
+---
+
+### Example
+
+An e-commerce app:
+
+```text
+Login
+Products
+Orders
+Payments
+```
+
+All inside one codebase.
+
+---
+
+### Mental Model 🏢
+
+One huge building containing:
+
+* school
+* hospital
+* office
+* mall
+
+Everything in one place.
+
+---
+
+### Advantages
+
+✅ Easy to start
+
+✅ Simple deployment
+
+---
+
+### Problems
+
+❌ Hard to scale
+
+❌ Hard to maintain
+
+❌ One bug can affect everything
+
+---
+
+# 🏗️ 2️⃣ What are Microservices?
+
+### Simple Idea
+
+Split application into smaller independent services.
+
+---
+
+### Example
+
+```text
+User Service
+Product Service
+Order Service
+Payment Service
+```
+
+Each runs independently.
+
+---
+
+### Mental Model 🏘️
+
+Instead of one huge building:
+
+Create separate buildings.
+
+Each has one responsibility.
+
+---
+
+### Why Companies Use It
+
+* easier scaling
+* independent deployment
+* better maintainability
+
+---
+
+### Real Examples
+
+* Netflix
+* Amazon
+* Uber
+
+use microservice architectures.
+
+---
+
+### Interview Gold Line ⭐
+
+👉 "Microservices follow the principle of single responsibility."
+
+---
+
+# ⚔️ 3️⃣ Monolith vs Microservices
+
+| Monolith           | Microservices     |
+| ------------------ | ----------------- |
+| Single application | Multiple services |
+| Easier initially   | More scalable     |
+| Tightly coupled    | Loosely coupled   |
+| Harder to scale    | Easier to scale   |
+
+---
+
+### Interview Tip
+
+Don't say microservices are always better.
+
+For small projects:
+
+👉 Monolith is often the right choice.
+
+---
+
+# 🚪 4️⃣ What is an API Gateway?
+
+🔥 Extremely important.
+
+---
+
+### Problem
+
+Suppose you have:
+
+```text
+User Service
+Order Service
+Payment Service
+Product Service
+```
+
+Should mobile app call all directly?
+
+❌ No
+
+---
+
+### Solution
+
+API Gateway
+
+---
+
+### Architecture
+
+```text
+Client
+   ↓
+API Gateway
+ ↙ ↓ ↘
+Services
+```
+
+---
+
+### Responsibilities
+
+* Authentication
+* Routing
+* Rate limiting
+* Logging
+
+---
+
+### Mental Model 🎫
+
+Airport security gate.
+
+Everyone passes through one entry point.
+
+---
+
+### Why It Matters
+
+Simplifies communication.
+
+Improves security.
+
+---
+
+# ☁️ 5️⃣ Availability Zones (AZ)
+
+Very common cloud interview topic.
+
+---
+
+### Problem
+
+What if one data center fails?
+
+---
+
+### Solution
+
+Use multiple Availability Zones.
+
+---
+
+### Example
+
+```text
+Zone A
+Zone B
+Zone C
+```
+
+Each in separate physical locations.
+
+---
+
+### Why It Works
+
+If Zone A fails:
+
+👉 Zone B continues serving users.
+
+---
+
+### Mental Model 🏥
+
+Multiple hospitals in a city.
+
+If one closes, others still operate.
+
+---
+
+### Key Insight ⭐
+
+Availability Zones improve:
+
+* reliability
+* fault tolerance
+* uptime
+
+---
+
+# ☁️ 6️⃣ Region vs Availability Zone
+
+---
+
+### Region
+
+Large geographical area.
+
+Example:
+
+* Mumbai
+* Singapore
+* London
+
+---
+
+### Availability Zone
+
+Data centers inside a region.
+
+---
+
+### Mental Model
+
+Country → Region
+
+Cities → Availability Zones
+
+---
+
+### Memory Trick
+
+Region contains multiple AZs.
+
+---
+
+# 🌍 Social Networks
+
+# 7️⃣ Recommendation Engine Architecture
+
+🔥 Used by Netflix, YouTube, Instagram
+
+---
+
+### Problem
+
+Millions of items exist.
+
+Which one should user see?
+
+---
+
+### Solution
+
+Recommendation Engine
+
+---
+
+### Inputs
+
+* User history
+* Likes
+* Watch time
+* Similar users
+* Network connections
+
+---
+
+### Output
+
+Recommended content.
+
+---
+
+### Mental Model 🎬
+
+Movie-loving friend suggesting movies.
+
+---
+
+# 🌍 8️⃣ Candidate Generation vs Ranking
+
+Advanced but important.
+
+---
+
+### Step 1: Candidate Generation
+
+Find 100 possible posts/videos.
+
+---
+
+### Step 2: Ranking
+
+Score and sort them.
+
+---
+
+Example:
+
+```text
+Post A = 98
+Post B = 80
+Post C = 60
+```
+
+Show highest first.
+
+---
+
+### Why Companies Use This
+
+Much faster than scoring millions of posts.
+
+---
+
+### Interview Gold Line ⭐
+
+"Modern recommendation systems use candidate generation followed by ranking."
+
+---
+
+# 🎤 Placement Interview Questions
+
+---
+
+## 1️⃣ What is a monolithic architecture?
+
+Single application containing all functionality.
+
+---
+
+## 2️⃣ What are microservices?
+
+Independent services responsible for specific tasks.
+
+---
+
+## 3️⃣ Why use microservices?
+
+Scalability and maintainability.
+
+---
+
+## 4️⃣ What is an API Gateway?
+
+Single entry point for backend services.
+
+---
+
+## 5️⃣ What are Availability Zones?
+
+Independent data centers inside a cloud region.
+
+---
+
+## 6️⃣ Difference between Region and Availability Zone?
+
+Region = geographical area
+
+AZ = data center group inside region
+
+---
+
+## 7️⃣ Why use multiple AZs?
+
+High availability and fault tolerance.
+
+---
+
+## 8️⃣ What is a recommendation engine?
+
+System suggesting relevant content.
+
+---
+
+## 9️⃣ What is candidate generation?
+
+Finding possible recommendations.
+
+---
+
+## 🔟 What is ranking?
+
+Ordering recommendations by relevance.
+
+---
+
+# 🧠 30-Second Revision
+
+### Backend Systems
+
+* Monolith = one app
+* Microservices = many services
+* API Gateway = single entry point
+
+---
+
+### Cloud
+
+* Region = location
+* Availability Zone = data centers
+* Multiple AZs = reliability
+
+---
+
+### Recommendation Systems
+
+* Candidate generation
+* Ranking
+* Personalized content
+
+---
+
+# 📌 Today's Speaking Practice
+
+Explain aloud:
+
+1. Monolith vs Microservices
+2. What is API Gateway?
+3. Region vs Availability Zone
+4. How recommendation systems work
+
+---
+
