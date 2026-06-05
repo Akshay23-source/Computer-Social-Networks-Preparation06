@@ -1,0 +1,554 @@
+# 📅 Week 2 – Day 6 (Databases + Caching + Distributed Systems)
+
+🔥 Today Focus:
+
+* SQL vs NoSQL
+* Why databases exist
+* Caching (Redis concept)
+* Distributed systems fundamentals
+* Social media notifications
+
+These topics are asked in almost every software engineering interview.
+
+---
+
+# 🗄️ 1️⃣ Why Do We Need Databases?
+
+### Simple Idea
+
+A database stores information permanently.
+
+Without a database:
+
+* data disappears when app closes
+* users can't log in again
+* messages are lost
+
+---
+
+### Mental Model 📒
+
+Database = Digital notebook
+
+Example:
+
+```text
+User:
+Name: Akshay
+Email: akshay@email.com
+```
+
+Stored safely.
+
+---
+
+### Real Examples
+
+* Instagram stores users
+* Amazon stores orders
+* WhatsApp stores messages
+
+---
+
+### Why It Matters
+
+Databases provide:
+
+✅ Storage
+
+✅ Retrieval
+
+✅ Reliability
+
+---
+
+# 🗄️ 2️⃣ SQL Databases
+
+### Examples
+
+* MySQL
+* PostgreSQL
+
+---
+
+### Simple Idea
+
+Data is stored in tables.
+
+---
+
+### Example
+
+Users Table
+
+| ID | Name   |
+| -- | ------ |
+| 1  | Akshay |
+| 2  | Rahul  |
+
+---
+
+### Why SQL Is Popular
+
+* structured
+* reliable
+* supports relationships
+
+---
+
+### Mental Model
+
+Excel spreadsheet with superpowers.
+
+---
+
+### Memory Trick
+
+**SQL = Tables + Relationships**
+
+---
+
+# 🗄️ 3️⃣ NoSQL Databases
+
+### Examples
+
+* MongoDB
+* Cassandra
+
+---
+
+### Simple Idea
+
+Stores flexible data.
+
+---
+
+### Example
+
+```json
+{
+ "name":"Akshay",
+ "skills":["Python","Networking"]
+}
+```
+
+---
+
+### Why NoSQL Exists
+
+Modern applications have:
+
+* huge scale
+* changing data structures
+
+---
+
+### Mental Model
+
+SQL = fixed notebook 📒
+
+NoSQL = flexible diary 📓
+
+---
+
+# ⚔️ 4️⃣ SQL vs NoSQL
+
+| SQL                | NoSQL            |
+| ------------------ | ---------------- |
+| Tables             | Documents        |
+| Fixed schema       | Flexible schema  |
+| Strong consistency | High scalability |
+| Relationships      | Large-scale data |
+
+---
+
+### Interview Gold Line ⭐
+
+👉 Use SQL when relationships are important.
+
+👉 Use NoSQL when scalability and flexibility are important.
+
+---
+
+# ⚡ 5️⃣ What Is Caching?
+
+🔥 Extremely Important
+
+---
+
+### Problem
+
+Database queries are slow.
+
+---
+
+### Example
+
+Suppose:
+
+1 million users request profile data.
+
+Should database handle all requests?
+
+❌ No
+
+---
+
+### Solution
+
+Cache
+
+---
+
+### How It Works
+
+```text
+User
+ ↓
+Cache
+ ↓
+Database
+```
+
+---
+
+### Mental Model 🧠
+
+Frequently used notes kept on study table.
+
+Not inside cupboard.
+
+---
+
+### Benefits
+
+✅ Faster
+
+✅ Less database load
+
+✅ Better performance
+
+---
+
+### Memory Trick
+
+**Cache = Fast temporary storage**
+
+---
+
+# ⚡ 6️⃣ Redis Concept
+
+### What is Redis?
+
+A very fast in-memory cache.
+
+Used by:
+
+* Instagram
+* Netflix
+* Amazon
+
+---
+
+### Why So Fast?
+
+Data stored in RAM instead of disk.
+
+---
+
+### Mental Model
+
+RAM = desk
+
+Disk = cupboard
+
+Desk is much faster.
+
+---
+
+### Interview Gold Line ⭐
+
+"Redis improves performance by storing frequently accessed data in memory."
+
+---
+
+# 🌐 7️⃣ What Is a Distributed System?
+
+🔥 Product-company favorite topic.
+
+---
+
+### Simple Idea
+
+Instead of one computer:
+
+Use multiple computers working together.
+
+---
+
+### Example
+
+```text
+Server 1
+Server 2
+Server 3
+```
+
+Together they serve users.
+
+---
+
+### Why?
+
+One machine cannot handle:
+
+* millions of users
+* huge traffic
+
+---
+
+### Mental Model 🚚
+
+One truck vs fleet of trucks.
+
+---
+
+### Benefits
+
+✅ Scalability
+
+✅ Reliability
+
+✅ Fault tolerance
+
+---
+
+# 🌐 8️⃣ CAP Theorem (Beginner Level)
+
+Don't memorize.
+
+Understand.
+
+---
+
+### In distributed systems:
+
+You can only strongly guarantee two of three:
+
+* Consistency
+* Availability
+* Partition Tolerance
+
+---
+
+### Mental Model
+
+Three goals.
+
+Network failures force trade-offs.
+
+---
+
+### Interview Tip
+
+Just understand the idea today.
+
+Deep details later.
+
+---
+
+# 🌍 Social Networks
+
+# 9️⃣ How Social Media Notifications Work
+
+---
+
+### Problem
+
+Suppose:
+
+```text
+Celebrity posts photo
+10 million followers
+```
+
+Need notifications.
+
+---
+
+### Simple Architecture
+
+```text
+Post
+ ↓
+Notification Service
+ ↓
+Followers
+```
+
+---
+
+### Why Separate Service?
+
+Notifications are independent.
+
+Microservice architecture.
+
+---
+
+### Mental Model
+
+School announcement system 📢
+
+One announcement → many students.
+
+---
+
+# 🌍 1️⃣0️⃣ Push vs Pull Notifications
+
+---
+
+## Pull
+
+User asks:
+
+```text
+Any notifications?
+```
+
+Repeatedly.
+
+---
+
+## Push
+
+Server sends instantly.
+
+---
+
+### Example
+
+WhatsApp notifications.
+
+---
+
+### Which Is Better?
+
+For real-time systems:
+
+✅ Push
+
+---
+
+# 🎤 Placement Interview Questions
+
+---
+
+## 1️⃣ Why do databases exist?
+
+To store and retrieve data reliably.
+
+---
+
+## 2️⃣ What is SQL?
+
+Relational database system using tables.
+
+---
+
+## 3️⃣ What is NoSQL?
+
+Flexible, scalable database system.
+
+---
+
+## 4️⃣ SQL vs NoSQL?
+
+SQL = structured
+
+NoSQL = flexible
+
+---
+
+## 5️⃣ What is caching?
+
+Temporary storage for faster access.
+
+---
+
+## 6️⃣ What is Redis?
+
+In-memory caching system.
+
+---
+
+## 7️⃣ What is a distributed system?
+
+Multiple computers working together.
+
+---
+
+## 8️⃣ Why use distributed systems?
+
+Scalability and reliability.
+
+---
+
+## 9️⃣ What is CAP theorem?
+
+Trade-off between consistency, availability, and partition tolerance.
+
+---
+
+## 🔟 Push vs Pull notifications?
+
+Push = server sends
+
+Pull = client requests
+
+---
+
+# 🧠 30-Second Revision
+
+### Databases
+
+* SQL = tables
+* NoSQL = documents
+* SQL → relationships
+* NoSQL → scalability
+
+---
+
+### Caching
+
+* Cache = fast temporary storage
+* Redis = in-memory cache
+
+---
+
+### Distributed Systems
+
+* Multiple servers working together
+* Better scalability
+
+---
+
+### Social Media
+
+* Notification service
+* Push notifications
+
+---
+
+# 📌 Today's Speaking Practice
+
+Explain aloud:
+
+1. SQL vs NoSQL
+2. What is caching?
+3. What is Redis?
+4. What is a distributed system?
+
+---
+
+
