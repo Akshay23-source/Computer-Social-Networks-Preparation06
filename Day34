@@ -1,0 +1,447 @@
+# 📅 Week 3 – Day 1 (Networking Projects + Resume Preparation)
+
+🔥 Today Focus:
+
+* How to build projects that impress recruiters
+* Resume-worthy networking/backend projects
+* Git & GitHub basics
+* Portfolio mindset
+
+---
+
+# 🎯 First Important Truth
+
+Many students know:
+
+✅ TCP
+✅ DNS
+✅ REST APIs
+
+But cannot answer:
+
+❌ "What project have you built?"
+
+In placements, projects prove you can apply knowledge.
+
+---
+
+# 🏗️ Project 1: Real-Time Chat Application (Resume Gold ⭐)
+
+## What You'll Learn
+
+* REST APIs
+* WebSockets
+* Authentication
+* Databases
+
+---
+
+## Features
+
+### User Authentication
+
+* Login
+* Signup
+
+---
+
+### Real-Time Messaging
+
+```text
+User A ⇄ User B
+```
+
+Messages appear instantly.
+
+---
+
+### Online Status
+
+```text
+Online
+Offline
+```
+
+---
+
+### Message History
+
+Store chats in database.
+
+---
+
+## Technologies
+
+### Backend
+
+* Python
+* FastAPI or Flask
+
+### Database
+
+* MongoDB or PostgreSQL
+
+### Real-Time
+
+* WebSockets
+
+---
+
+## Why Recruiters Like It
+
+Demonstrates:
+
+✅ Networking
+
+✅ APIs
+
+✅ Databases
+
+✅ Real-time systems
+
+---
+
+# 🏗️ Project 2: URL Shortener
+
+Like:
+
+```text
+https://very-long-url
+```
+
+becomes:
+
+```text
+short.ly/abc123
+```
+
+---
+
+## Concepts Learned
+
+* Databases
+* REST APIs
+* Hashing
+
+---
+
+## Interview Question
+
+"How would you design Bitly?"
+
+This project helps answer that.
+
+---
+
+# 🏗️ Project 3: Network Monitoring Dashboard
+
+🔥 Great for your networking preparation.
+
+---
+
+## Features
+
+Show:
+
+* latency
+* packet loss
+* response times
+
+---
+
+## Why Useful
+
+Demonstrates understanding of:
+
+* networking
+* APIs
+* visualization
+
+---
+
+## Resume Impact
+
+Much stronger than a basic CRUD app.
+
+---
+
+# 📄 Resume Preparation
+
+---
+
+# 1️⃣ Resume Structure
+
+Keep it to one page.
+
+---
+
+### Sections
+
+1. Education
+2. Skills
+3. Projects
+4. Experience/Internships
+5. Certifications
+
+---
+
+### Priority Order
+
+Projects > Certificates
+
+Recruiters care more about what you've built.
+
+---
+
+# 2️⃣ Skills Section
+
+Instead of writing:
+
+❌ "Computer Networks"
+
+Write:
+
+✅ TCP/IP, DNS, HTTP/HTTPS, REST APIs, WebSockets
+
+---
+
+### Why?
+
+Specific skills look stronger.
+
+---
+
+# 3️⃣ Project Description Formula
+
+Use:
+
+### What
+
+Built a real-time chat application.
+
+---
+
+### How
+
+Used FastAPI, WebSockets, MongoDB.
+
+---
+
+### Result
+
+Enabled real-time communication and persistent message storage.
+
+---
+
+### Example Resume Bullet
+
+"Built a real-time chat application using WebSockets and MongoDB, enabling instant messaging and persistent chat history."
+
+---
+
+# 🌐 Git & GitHub Basics
+
+---
+
+# What is Git?
+
+Version control system.
+
+Tracks changes in code.
+
+---
+
+### Mental Model
+
+Google Docs version history.
+
+---
+
+### Why Developers Use Git
+
+* collaboration
+* backup
+* change tracking
+
+---
+
+# What is GitHub?
+
+Website for hosting Git repositories.
+
+Popular among recruiters.
+
+---
+
+### Why GitHub Matters
+
+Recruiters often check:
+
+* projects
+* code quality
+* consistency
+
+---
+
+### Interview Gold Line ⭐
+
+"Git tracks changes locally, while GitHub hosts repositories remotely."
+
+---
+
+# 🌍 Social Networks Concept
+
+## Building Your Professional Network
+
+---
+
+### Strong Ties
+
+Close friends.
+
+---
+
+### Weak Ties
+
+LinkedIn connections.
+
+---
+
+### Placement Insight
+
+Many jobs come through:
+
+👉 Weak ties
+
+not close friends.
+
+---
+
+### Action Item
+
+Start building:
+
+* LinkedIn profile
+* GitHub profile
+* professional connections
+
+---
+
+# 🎤 Placement Interview Questions
+
+---
+
+## 1️⃣ Why are projects important?
+
+They demonstrate practical skills.
+
+---
+
+## 2️⃣ What project should a beginner build?
+
+Real-time chat application.
+
+---
+
+## 3️⃣ What is Git?
+
+Version control system.
+
+---
+
+## 4️⃣ What is GitHub?
+
+Platform for hosting Git repositories.
+
+---
+
+## 5️⃣ Difference between Git and GitHub?
+
+Git = tool
+
+GitHub = hosting platform
+
+---
+
+## 6️⃣ Why do recruiters care about GitHub?
+
+Shows coding activity and projects.
+
+---
+
+## 7️⃣ What should be included in a resume?
+
+Education, skills, projects, experience.
+
+---
+
+## 8️⃣ Why keep resume one page?
+
+Improves readability.
+
+---
+
+## 9️⃣ What makes a project resume-worthy?
+
+Real-world problem solving.
+
+---
+
+## 🔟 Why are weak ties important?
+
+They provide new opportunities and information.
+
+---
+
+# 🧠 30-Second Revision
+
+### Projects
+
+* Chat App
+* URL Shortener
+* Network Dashboard
+
+---
+
+### Resume
+
+* One page
+* Project-focused
+* Specific skills
+
+---
+
+### Git
+
+* Tracks changes
+
+### GitHub
+
+* Hosts repositories
+
+---
+
+# 📌 Today's Action Items
+
+### Create
+
+1. GitHub account (if not already)
+2. LinkedIn profile (if incomplete)
+
+---
+
+### Start Planning
+
+Project 1:
+
+✅ Real-Time Chat App
+
+---
+
+### Speak Aloud
+
+1. What is Git?
+2. What is GitHub?
+3. Explain your chat app project.
+
+
