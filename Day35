@@ -1,0 +1,533 @@
+# 📅 Week 3 – Day 2 (Git Workflow + GitHub Portfolio + Resume Deep Dive)
+
+🔥 Today Focus:
+
+* Git workflow used by software engineers
+* GitHub portfolio building
+* How to explain projects in interviews
+* Resume optimization
+* LinkedIn basics
+
+---
+
+# 🎯 Why Recruiters Reject Good Students
+
+Many students know:
+
+✅ DSA
+✅ CN
+✅ DBMS
+
+But recruiters see:
+
+❌ Empty GitHub
+❌ Weak resume
+❌ Cannot explain projects
+
+---
+
+### Reality
+
+Knowledge gets you shortlisted.
+
+Communication gets you selected.
+
+---
+
+# 🌿 1️⃣ Git Workflow (Most Asked)
+
+## What Happens in Real Companies?
+
+A developer writes code.
+
+Then:
+
+```text
+Write Code
+↓
+Commit
+↓
+Push
+↓
+Review
+↓
+Merge
+```
+
+---
+
+## Step 1: Git Init
+
+Creates a Git repository.
+
+```bash
+git init
+```
+
+Think of it as:
+
+👉 "Start tracking this project."
+
+---
+
+## Step 2: Git Add
+
+```bash
+git add .
+```
+
+Tells Git:
+
+👉 "Prepare these files."
+
+---
+
+## Step 3: Git Commit
+
+```bash
+git commit -m "Added login feature"
+```
+
+Creates a checkpoint.
+
+---
+
+### Mental Model 🧠
+
+Like saving a game.
+
+You can return later.
+
+---
+
+## Step 4: Git Push
+
+```bash
+git push
+```
+
+Uploads code to GitHub.
+
+---
+
+### Mental Model
+
+Local laptop → GitHub cloud
+
+---
+
+# 🌿 2️⃣ Branching (VERY IMPORTANT)
+
+## Problem
+
+You don't want to break working code.
+
+---
+
+### Solution
+
+Create a branch.
+
+```bash
+git branch login-feature
+```
+
+---
+
+### Mental Model
+
+Main road = stable code
+
+Side road = experiment
+
+---
+
+### Why Companies Love Branches
+
+Developers can work independently.
+
+---
+
+### Common Interview Question
+
+### Q: Why use branches?
+
+✅ Answer:
+
+"Branches allow developers to work on features independently without affecting the stable codebase."
+
+---
+
+# 🌿 3️⃣ Merge
+
+After testing:
+
+```text
+Feature Branch
+     ↓
+    Merge
+     ↓
+    Main
+```
+
+---
+
+### Mental Model
+
+Joining a side road back to the highway.
+
+---
+
+# 🏆 4️⃣ Building a Strong GitHub Portfolio
+
+Most students do this:
+
+```text
+Project1
+Project2
+Project3
+```
+
+No documentation.
+
+---
+
+### Better Approach
+
+Every project should contain:
+
+### README.md
+
+Contains:
+
+* Project description
+* Features
+* Technologies used
+* Screenshots
+* Setup instructions
+
+---
+
+### Example Structure
+
+```text
+Real-Time Chat App
+│
+├── README.md
+├── backend
+├── frontend
+└── screenshots
+```
+
+---
+
+### Recruiter Impact
+
+Good README = professional developer.
+
+---
+
+# 📄 5️⃣ Resume Deep Dive
+
+---
+
+## Bad Resume Bullet ❌
+
+"Made chat application."
+
+---
+
+## Good Resume Bullet ✅
+
+"Developed a real-time chat application using FastAPI, WebSockets, and MongoDB, enabling instant messaging and persistent chat storage."
+
+---
+
+### Formula
+
+**Action + Technology + Result**
+
+---
+
+### Example
+
+Built + FastAPI + Real-time communication
+
+---
+
+# 🎤 6️⃣ How to Explain Projects in Interviews
+
+Very important.
+
+---
+
+## Structure
+
+### Problem
+
+What problem were you solving?
+
+---
+
+### Solution
+
+How did you solve it?
+
+---
+
+### Technologies
+
+What tools did you use?
+
+---
+
+### Challenges
+
+What difficulties did you face?
+
+---
+
+### Improvements
+
+What would you improve?
+
+---
+
+# Example
+
+## Chat App
+
+Problem:
+
+Need instant communication.
+
+---
+
+Solution:
+
+Used WebSockets.
+
+---
+
+Technologies:
+
+FastAPI, MongoDB.
+
+---
+
+Challenge:
+
+Managing multiple users.
+
+---
+
+Improvement:
+
+Add group chat and file sharing.
+
+---
+
+### Interview Gold Line ⭐
+
+Never say:
+
+👉 "I followed a tutorial."
+
+Instead say:
+
+👉 "I implemented and customized the solution."
+
+---
+
+# 🌍 7️⃣ LinkedIn Optimization
+
+---
+
+## Headline
+
+Bad:
+
+```text
+Student
+```
+
+---
+
+Good:
+
+```text
+CSE Student | Python | Networking | Backend Development
+```
+
+---
+
+## About Section
+
+Mention:
+
+* who you are
+* skills
+* projects
+* career goals
+
+---
+
+## Profile Picture
+
+Professional and clear.
+
+---
+
+## Add
+
+* Projects
+* Certifications
+* Skills
+
+---
+
+# 🌍 Social Networks Concept
+
+## Personal Branding
+
+---
+
+### What Is It?
+
+How people perceive you professionally.
+
+---
+
+### Online Presence Matters
+
+Recruiters often check:
+
+* GitHub
+* LinkedIn
+
+---
+
+### Mental Model
+
+Your online profile = your digital reputation.
+
+---
+
+# 🎤 Placement Interview Questions
+
+---
+
+## 1️⃣ What is Git?
+
+Version control system.
+
+---
+
+## 2️⃣ What is GitHub?
+
+Repository hosting platform.
+
+---
+
+## 3️⃣ Why use Git?
+
+Track changes and collaborate.
+
+---
+
+## 4️⃣ What is a commit?
+
+Checkpoint of code changes.
+
+---
+
+## 5️⃣ Why use branches?
+
+Independent feature development.
+
+---
+
+## 6️⃣ What is merging?
+
+Combining branch changes.
+
+---
+
+## 7️⃣ How should projects be explained?
+
+Problem → Solution → Tech → Challenges.
+
+---
+
+## 8️⃣ What should a GitHub project contain?
+
+README, code, screenshots.
+
+---
+
+## 9️⃣ What makes a strong resume?
+
+Projects with measurable impact.
+
+---
+
+## 🔟 Why is LinkedIn important?
+
+Professional visibility and networking.
+
+---
+
+# 🧠 30-Second Revision
+
+### Git
+
+* add → stage
+* commit → checkpoint
+* push → upload
+* branch → separate work
+* merge → combine
+
+---
+
+### Resume
+
+Action + Technology + Result
+
+---
+
+### Projects
+
+Problem → Solution → Tech → Challenges
+
+---
+
+### LinkedIn
+
+Professional brand
+
+---
+
+# 📌 Today's Tasks
+
+### Create/Improve
+
+✅ GitHub profile
+
+✅ LinkedIn headline
+
+---
+
+### Write
+
+README outline for:
+
+👉 Real-Time Chat App
+
+---
+
+### Practice Speaking
+
+1. Explain Git workflow.
+2. Explain your chat app project.
+3. Explain why branches are useful.
+
